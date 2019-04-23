@@ -1,0 +1,9 @@
+Cod. Cliente;Razão Social;Cod. Categoria;Desc. Categoria;Cod. Grupo;Desc. Grupo;Cod. Bônus;Desc. Bônus;Data Cadastro;Status
+100;ACC BRASIL IND.E COM.DE COMPUTADORES LTDA-ACCEPT ;1;Corporativa;1;;00001;Pontuação Corporativo;27/03/2008;Aprovado
+101;Voluntarios da Patria;2;Usuário Final (consumo entre 1 a 15 cart./mês);1;;;;28/03/2008;Aprovado
+102;PREMIER TECNOLOGIA DA INFORMACAO LTDA  ;5;Revendedor;5;Premier;00001;Pontuação Corporativo;28/03/2008;Aprovado
+103;ITAU S/A;1;Corporativa;2;Banco Itau;00001;Pontuação Corporativo;28/03/2008;Aprovado
+104;Banco Itau;1;Corporativa;2;Banco Itau;00001;Pontuação Corporativo;28/03/2008;Aprovado
+105;Érico Tooru Tanji;2;Usuário Final (consumo entre 1 a 15 cart./mês);1;;;;31/03/2008;Aprovado
+106;José de Oliveira ;2;Usuário Final (consumo entre 1 a 15 cart./mês);1;;;;31/03/2008;Aprovado
+107;Teste coleta;1;Corporativa;1;;;;18/04/2008;Status em branco

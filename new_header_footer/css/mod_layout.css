@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* ----------------------------------------------------------------
+Structure= Frame
+----------------------------------------------------------------- */
+#frame{
+margin-bottom:15px;
+padding:0px;
+width:auto;
+background-color:#fff;
+text-align:left;
+}
+
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+
+/*------------------------------------------
+
+1. margin (margin-top/margin-right/margin-bottom/margin-left)
+2. padding (padding-top/padding-right/padding-bottom/padding-left)
+3. border-width (border-top-width/border-right-width/border-bottom-width/border-left-width)
+4. border-color (border-top-color/border-right-color/border-bottom-color/border-left-color)
+5. border-style (border-top-style/border-right-style/border-bottom-style/border-left-style)
+6. border (border-top/border-bottom/border-right/border-left)
+7. display
+8. position
+9. top
+10. right
+11. bottom
+12. left
+13. float
+14. clear
+15. z-index
+16. width (min-width/max-width)
+17. height (min-height/max-height)
+18. line-height
+19. vertical-align
+20. overflow
+21. clip
+22. visibility
+23. list-style (list-style-type/list-style-image/list-style-position)
+24. color
+25. background (background-color/background-image/background-repeat/backgroundattachment/
+background-position)
+26. font (font-family/font-style/font-variant/font-weight/font-size)
+27. text-indent
+28. text-align
+29. text-decoration
+30. letter-spacing
+31. word-spacing
+32. white-space
+-----------------*/

@@ -1,0 +1,51 @@
+Data Solicitação;Número Solicitação;Cod. Cliente;Razão Social;UF Cliente;Qtd. Cartuchos;Cód. Categoria;Desc. Categoria
+05/09/2007;C07090000142;1;BANCO ITAU S. A.                        ;SP;164;1;Corporativa
+05/09/2007;C07090000576;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+05/09/2007;C07090000657;4;BANCO ABN AMRO REAL S/A                 ;SP;1969;1;Corporativa
+06/09/2007;C07090001386;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+06/09/2007;C07090001548;1;BANCO ITAU S. A.                        ;SP;250;1;Corporativa
+10/09/2007;C07090004482;7;CARMEL COMERCIAL LTDA ;SP;568;1;Corporativa
+10/09/2007;C07090004563;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+10/09/2007;C07090004644;7;CARMEL COMERCIAL LTDA ;SP;50;1;Corporativa
+11/09/2007;C07090007740;10;IMPRESSORA OKI;SP;40;1;Corporativa
+11/09/2007;C07090007821;1;BANCO ITAU S. A.                        ;SP;50;1;Corporativa
+12/09/2007;C07090007902;11;ALLDORA TECNOLOGIA LTDA;SP;70;1;Corporativa
+13/09/2007;C07090012159;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+13/09/2007;C07090012310;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+13/09/2007;C07090012400;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+17/09/2007;C07090018351;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+17/09/2007;C07090019161;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+19/09/2007;C07090021492;20;joa;SP;100;1;Corporativa
+19/09/2007;C07090021654;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+04/10/2007;C07100000492;30;Maderada;SP;40;1;Corporativa
+08/10/2007;C07100000654;31;Okidata;SP;1666;1;Corporativa
+08/10/2007;C07100000905;31;Okidata;SP;100;1;Corporativa
+08/10/2007;C07100001707;32;Érico Tooru Tanji;SP;100;1;Corporativa
+10/10/2007;C07100002517;31;Okidata;SP;100;1;Corporativa
+10/10/2007;C07100002606;31;Okidata;SP;200;1;Corporativa
+10/10/2007;C07100002789;31;Okidata;SP;3000;1;Corporativa
+10/10/2007;C07100002860;31;Okidata;SP;1000;1;Corporativa
+10/10/2007;C07100002940;31;Okidata;SP;150;1;Corporativa
+10/10/2007;C07100003084;31;Okidata;SP;250;1;Corporativa
+10/10/2007;C07100003165;31;Okidata;SP;750;1;Corporativa
+10/10/2007;C07100003670;40;Wadt Representações;SP;50;1;Corporativa
+10/10/2007;C07100003750;40;Wadt Representações;SP;100;1;Corporativa
+10/10/2007;C07100003831;40;Wadt Representações;SP;150;1;Corporativa
+10/10/2007;C07100003912;40;Wadt Representações;SP;200;1;Corporativa
+10/10/2007;C07100004056;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+10/10/2007;C07100004137;1;BANCO ITAU S. A.                        ;SP;50;1;Corporativa
+10/10/2007;C07100004218;1;BANCO ITAU S. A.                        ;SP;30;1;Corporativa
+10/10/2007;C07100004307;31;Okidata;SP;100;1;Corporativa
+10/10/2007;C07100004480;31;Okidata;SP;120;1;Corporativa
+10/10/2007;C07100004560;31;Okidata;SP;350;1;Corporativa
+10/10/2007;C07100004641;31;Okidata;SP;450;1;Corporativa
+10/10/2007;C07100004722;31;Okidata;SP;78;1;Corporativa
+10/10/2007;C07100004803;31;Okidata;SP;45;1;Corporativa
+23/10/2007;C07100005109;43;TESTE 23;SP;40;1;Corporativa
+08/11/2007;C07110001742;1;BANCO ITAU S. A.                        ;SP;50;1;Corporativa
+29/11/2007;C07110002552;64;Teste Coleta Ltda.;SP;60;1;Corporativa
+06/09/2007;M07090001114;1;CONTEC INFORMATICA LTDA                 ;1;164;---;---
+10/09/2007;M07090007155;1;CONTEC INFORMATICA LTDA                 ;1;100;---;---
+12/09/2007;M07090008399;1;CONTEC INFORMATICA LTDA                 ;3;1969;---;---
+18/09/2007;M07090021301;1;CONTEC INFORMATICA LTDA                 ;1;100;---;---
+08/10/2007;M07100001545;1;CONTEC INFORMATICA LTDA                 ;1;250;---;---

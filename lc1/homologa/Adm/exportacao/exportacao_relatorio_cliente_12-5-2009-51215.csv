@@ -1,0 +1,136 @@
+Cod. Cliente;Razão Social;Cod. Categoria;Desc. Categoria;Cod. Grupo;Desc. Grupo;Cod. Bônus;Desc. Bônus;Data Cadastro;Status
+100;ACC BRASIL IND.E COM.DE COMPUTADORES LTDA-ACCEPT ;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;03/11/2008;Aprovado
+101;Voluntarios da Patria;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;14/10/2008;Aprovado
+102;PREMIER TECNOLOGIA DA INFORMACAO LTDA  ;4;Revendedor;5;Premier;00003;Pontuação VAR - Sul;12/11/2008;Aprovado
+103;ITAU S/A;5;Empresas / Estado de São Paulo;2;Banco Itau;00001;Pontuação VAR-Sudeste;;Aprovado
+104;Banco Itau;5;Empresas / Estado de São Paulo;2;Banco Itau;00007;Bônus Banco Itaú;;Aprovado
+112;Trivèlla Investimentos Ltda;2;Usuário Final-cadastro com CPF (à partir de 15 cart.);1;;;;;Aprovado
+113;Banco Itau ;7;Empresas / Estados PR; SC e RS;1;;00007;Bônus Banco Itaú;19/08/2008;Aprovado
+114;Don Paco Moveis LTDA;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;22/08/2008;Aprovado
+115;A;5;Empresas / Estado de São Paulo;1;;;;25/08/2008;Status em branco
+116;Case Sensitive Serviços de Tradução;2;Usuário Final-cadastro com CPF (à partir de 15 cart.);1;;;;01/09/2008;Aprovado
+117;DISTRIFILM COMERCIAL LTDA;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;08/09/2008;Aprovado
+118;BIRD SOLUTION LTDA;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;09/09/2008;Aprovado
+119;CSV PALOTINAS- COLÉGIO SÃO JOSÉ;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;16/09/2008;Aprovado
+120;Multh Comércio Materiais Equipamentos Ltda;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;16/09/2008;Aprovado
+121;Tecnopop Comunicação Visual e Multimídia Ltda;6;Empresas / Estados RJ; MG e ES;1;;00009;Pontuação Governo e Corporativo - Sudeste;18/09/2008;Aprovado
+122;Dimex do Triângulo Ltda;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;18/09/2008;Aprovado
+123;ALLDORA TECNOLOGIA LTDA;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;22/09/2008;Aprovado
+124;Taji Consultoria e Assessoria Ltda.;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;25/09/2008;Aprovado
+125;DEPARTAMENTO ESTADUAL DE TRANSITO;3;Órgãos Públicos e Empresas Estatais;1;;00010;Pontuação Governo e Corporativo - Nordeste;25/09/2008;Aprovado
+126;Buriti Imóveis e Administração Ltda.;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;30/09/2008;Aprovado
+127;Prefeitura Municipal da Estancia Turistica de Embu ;3;Órgãos Públicos e Empresas Estatais;1;;00009;Pontuação Governo e Corporativo - Sudeste;30/09/2008;Aprovado
+128;Sandria Projetos e Construções Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;01/10/2008;Aprovado
+129;COMPANHIA DO METROPOLITANO DE SÃO PAULO;3;Órgãos Públicos e Empresas Estatais;1;;00009;Pontuação Governo e Corporativo - Sudeste;01/10/2008;Aprovado
+130;MARINHO PROCESSAMENTO DE DADOS;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;02/10/2008;Aprovado
+131;BANCO DO NACIONAL DO DESENVOLVIMENTO ECONOMICO E SOCIAL;3;Órgãos Públicos e Empresas Estatais;1;;00009;Pontuação Governo e Corporativo - Sudeste;02/10/2008;Aprovado
+132;AMC Comunicação S/C Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;02/10/2008;Aprovado
+133;CD STUDIO;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;02/10/2008;Aprovado
+134;SIMPTEC COMÉRCIO DE MÁQUINAS LTDA;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;03/10/2008;Aprovado
+135;BELOCOPY COMERCIO DE EQUIPAMENTOS REPROGRAFICOS LTDA;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;06/10/2008;Aprovado
+136;KITANI LOCAÇÃO E COM. DE EQUIPS LTDA;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;07/10/2008;Aprovado
+137;Pharmedic Pharmaceuticals Imp.Distr.Com.Rep.Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;07/10/2008;Aprovado
+138;OKIDATA DO BRASIL INFORMÁTICA;5;Empresas / Estado de São Paulo;1;;00001;Pontuação VAR-Sudeste;07/10/2008;Aprovado
+139;Tribunal de Contas do Estado de São Paulo;3;Órgãos Públicos e Empresas Estatais;1;;00009;Pontuação Governo e Corporativo - Sudeste;07/10/2008;Aprovado
+140;Pacolla Assessoria e Comunicação Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;08/10/2008;Aprovado
+141;JANAINA DE OLIVEIRA - ASSESSORIA   ;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;09/10/2008;Aprovado
+142;Carmel Comercial Ltda;4;Revendedor;8;Compushop-Carmel;00001;Pontuação VAR-Sudeste;09/10/2008;Aprovado
+143;IMPORTINVEST IMPORTAÇÃO COMÉRCIO LTDA;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;09/10/2008;Aprovado
+144;abba equipamentos de informatica e suprimentos ltda;4;Revendedor;1;;00005;Pontuação VAR - Centro-Oeste;11/10/2008;Aprovado
+145;must eventos e desenvolvimento ltda.;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;15/10/2008;Aprovado
+146;Tribunal Regional do Trabalho da 5º Região;3;Órgãos Públicos e Empresas Estatais;1;;00010;Pontuação Governo e Corporativo - Nordeste;15/10/2008;Aprovado
+147;Hotal Camping Estância Atibainha Ltda.;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;16/10/2008;Aprovado
+148;H2L EQUIPAMENTOS SISTEMAS LTDA;4;Revendedor;1;;00005;Pontuação VAR - Centro-Oeste;16/10/2008;Aprovado
+149;Alanta S/A Indústria e Comércio;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;20/10/2008;Aprovado
+150;Miracula;5;Empresas / Estado de São Paulo;1;;;;20/10/2008;Aprovado
+151;Golden Distribuidora LTDA;5;Empresas / Estado de São Paulo;1;;;;21/10/2008;Aprovado
+152;Gloria Andreza Moreira ME;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;21/10/2008;Aprovado
+153;Erico Tooru Tanji;1;Usuário Final-cadastro com CPF (entre 1 à 14 cart.);1;;;;22/10/2008;Aprovado
+154;Ricardo Lacerda Bruns;1;Usuário Final-cadastro com CPF (entre 1 à 14 cart.);1;;;;22/10/2008;Aprovado
+155;Roberto Kasmanas;1;Usuário Final-cadastro com CPF (entre 1 à 14 cart.);1;;;;22/10/2008;Aprovado
+156;BANCO ABN AMRO REAL S/A ;5;Empresas / Estado de São Paulo;1;;00008;Bônus Banco ABN Real;22/10/2008;Aprovado
+157;cprinter informatica e comercio ltda epp;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;23/10/2008;Aprovado
+158;TRIBUNAL DE JUSTIÇA DO DISTRITO FEDERAL E DOS TERRITÓRIOS;3;Órgãos Públicos e Empresas Estatais;1;;00011;Pontuação Governo e Corporativo - Centro-Oeste;23/10/2008;Aprovado
+159;Alves & Pacheco Assessoria;5;Empresas / Estado de São Paulo;1;;;;28/10/2008;Aprovado
+160;univers arquitetura e design;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;31/10/2008;Aprovado
+161;ROHR S/A ESTRUTURAS TUBULARES;5;Empresas / Estado de São Paulo;1;;;;31/10/2008;Aprovado
+162; Conspal Construtora e Imobiliária Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;31/10/2008;Aprovado
+163;AMD South America Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;31/10/2008;Aprovado
+164;PRINTER FACILITIES LOCAÇÃO DE EQUIPAMENTOS PARA ESCRITÓRIO LTDA;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;03/11/2008;Aprovado
+165;REIS OFFICE PRODUCTS COMERCIAL LTDA;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;05/11/2008;Aprovado
+166;Instituto brasileiro do meio ambiente e dos recursos naturais renovaveis;3;Órgãos Públicos e Empresas Estatais;1;;00011;Pontuação Governo e Corporativo - Centro-Oeste;06/11/2008;Aprovado
+167;RMTJ IMPRESSOES LTDA;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;10/11/2008;Aprovado
+168;IRB-BRASIL RESSEGUROS S.A.;3;Órgãos Públicos e Empresas Estatais;7;IRB RESSEGUROS;00009;Pontuação Governo e Corporativo - Sudeste;11/11/2008;Aprovado
+169;I4PRO INFORMATICA LTDA;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;11/11/2008;Aprovado
+170;PHB Eletronica ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;11/11/2008;Aprovado
+171;SIGNORINI PRODUCAO GRAFICA;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;13/11/2008;Aprovado
+172;jaqueline aparecida gomes de melo;1;Usuário Final-cadastro com CPF (entre 1 à 14 cart.);1;;;;13/11/2008;Aprovado
+173;INNOVATECH COM.E REPRESENTACAO LTDA;4;Revendedor;1;;00004;Pontuação VAR - Nordeste;18/11/2008;Aprovado
+174;Klima Campinas Tecnologia Ltda;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;18/11/2008;Aprovado
+175;IGREJA PENTECOSTAL DEUS E AMOR;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;18/11/2008;Aprovado
+176;megabarre ind equip eletricos ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;20/11/2008;Aprovado
+177;Furnas Centrais Elétricas S/A;3;Órgãos Públicos e Empresas Estatais;1;;00009;Pontuação Governo e Corporativo - Sudeste;21/11/2008;Aprovado
+178;Ultrapel Locação e Serviços Ltda;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;21/11/2008;Aprovado
+179;Computer Now Informática Ltda;9;Empresas / Estados do Centro-Oeste;5;Premier;00003;Pontuação VAR - Sul;21/11/2008;Aprovado
+180;maria helena da fonseca quandt;1;Usuário Final-cadastro com CPF (entre 1 à 14 cart.);1;;;;24/11/2008;Aprovado
+181;Equipa Máquinas e Utensílios para Escritórios Ltda;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;26/11/2008;Aprovado
+182;Serviço Social Educ. Beneficente;6;Empresas / Estados RJ; MG e ES;1;;;;28/11/2008;Aprovado
+183;Unidade Mogiana de Diagnósticos por Imagem LTDA;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;28/11/2008;Aprovado
+184;PLANIN COMUNICACAO EMPRESARIAL LTDA;5;Empresas / Estado de São Paulo;1;;;;28/11/2008;Aprovado
+185;INTERPRINT LTDA;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;03/12/2008;Aprovado
+186;espaço2 arquitetura e comunicação visual s/s ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;03/12/2008;Aprovado
+187;AGEVILLE-A.Giannetti, Empreendimentos e Imóveis Ltda;6;Empresas / Estados RJ; MG e ES;1;;;;04/12/2008;Aprovado
+188;Transportes e Construções Ltda;6;Empresas / Estados RJ; MG e ES;1;;00009;Pontuação Governo e Corporativo - Sudeste;05/12/2008;Aprovado
+189;UFFICIO RECURSOS HUMANOS E COMERCIO LTDA;2;Usuário Final-cadastro com CPF (à partir de 15 cart.);1;;00009;Pontuação Governo e Corporativo - Sudeste;10/12/2008;Aprovado
+190;Lunes 3 Comércio de Máquinas e Suprimentos Gráficos Ltda;4;Revendedor;1;;00003;Pontuação VAR - Sul;10/12/2008;Aprovado
+191;zol Design Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;11/12/2008;Aprovado
+192;P.S.K. CONSULTORES E AUDITORES S/S LTDA;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;11/12/2008;Aprovado
+193;FIAT DO BRASIL S/A;6;Empresas / Estados RJ; MG e ES;1;;;;11/12/2008;Aprovado
+194;Instituto Nacional de Traumatologia e Ortopedia;3;Órgãos Públicos e Empresas Estatais;1;;00009;Pontuação Governo e Corporativo - Sudeste;11/12/2008;Aprovado
+195;triade comercio e industria auto peças ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;05/01/2009;Aprovado
+196;MQS Consultoria;1;Usuário Final-cadastro com CPF (entre 1 à 14 cart.);1;;;;05/01/2009;Aprovado
+197;FUNDACAO HOSPITALAR DO ESTADO DE MINAS GERAIS;3;Órgãos Públicos e Empresas Estatais;1;;00009;Pontuação Governo e Corporativo - Sudeste;06/01/2009;Aprovado
+198;CORPRINT GRAFICA E EDITORA LTDA;2;Usuário Final-cadastro com CPF (à partir de 15 cart.);1;;00009;Pontuação Governo e Corporativo - Sudeste;07/01/2009;Aprovado
+199;copylink equipamentos para escritorio ltda;4;Revendedor;1;;00003;Pontuação VAR - Sul;15/01/2009;Aprovado
+200;Zupi Design e Editora Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;15/01/2009;Aprovado
+201;CERVEJARIA PETROPOLIS S/A;6;Empresas / Estados RJ; MG e ES;1;;;;16/01/2009;Inativo
+202;Imagem Integrada e Comunicação;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;19/01/2009;Aprovado
+203;Y N Pamplona Telecomunicações Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;20/01/2009;Aprovado
+204;MONTE TABOR - CENTRO ÍTALO BRASILEIRO DE PROMOÇÃO SANITÁRIA ;8;Empresas / Estados do Nordeste;1;;00010;Pontuação Governo e Corporativo - Nordeste;22/01/2009;Aprovado
+205;IRB-BRASIL RE;3;Órgãos Públicos e Empresas Estatais;7;IRB RESSEGUROS;00009;Pontuação Governo e Corporativo - Sudeste;23/01/2009;Aprovado
+206;FLC INDUSTRIA E COMERCIO DE PLASTICOS LTDA;5;Empresas / Estado de São Paulo;9;Star BKS-Outsourcing;00001;Pontuação VAR-Sudeste;23/01/2009;Aprovado
+207;S/A O Estado de São Paulo;5;Empresas / Estado de São Paulo;8;Compushop-Carmel;00001;Pontuação VAR-Sudeste;27/01/2009;Aprovado
+208;Star Outsourcing Comércio e Serviços de Informática Ltda;4;Revendedor;9;Star BKS-Outsourcing;00001;Pontuação VAR-Sudeste;03/02/2009;Aprovado
+209;Developing Incorporadora LTDA;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;04/02/2009;Aprovado
+210;Toyota Tsusho;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;04/02/2009;Aprovado
+211;CERVEJARIA PETROPOLIS LTDA;5;Empresas / Estado de São Paulo;9;Star BKS-Outsourcing;00001;Pontuação VAR-Sudeste;11/02/2009;Aprovado
+212;E&E ENGELS CONS. BENEF. COR SEGUROS;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;12/02/2009;Aprovado
+213;FK EQUIPAMENTOS PARA ESCRITÓRIO LTDA.;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;18/02/2009;Aprovado
+214;ELLU Consultoria e Eventos Ltda;5;Empresas / Estado de São Paulo;1;;;;18/02/2009;Aprovado
+215;PRODUS PRODUTOS E SOLUÇÕES PARA INFORMATICA LTDA;4;Revendedor;1;;00004;Pontuação VAR - Nordeste;27/02/2009;Aprovado
+216;pro-x ind.ecom.de artigos esportivos ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;03/03/2009;Aprovado
+217;Renato Sievers ME;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;09/03/2009;Aprovado
+218;CLINICA ZANELLO DIAG. POR IMAGEM;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;09/03/2009;Aprovado
+219;Bioenergética Vale do Paracatu;6;Empresas / Estados RJ; MG e ES;4;Distrifilm;00001;Pontuação VAR-Sudeste;10/03/2009;Aprovado
+220;ZONA LIVRE LOGISTICA LTDA;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;11/03/2009;Aprovado
+221;Pedro Carlos Stelian;1;Usuário Final-cadastro com CPF (entre 1 à 14 cart.);1;;;;13/03/2009;Aprovado
+222;HELIOPRINT LOCADORA DE EQUIPAMENTOS LTDA;4;Revendedor;1;;00003;Pontuação VAR - Sul;16/03/2009;Aprovado
+223;Secretaria de Estado de Educação;3;Órgãos Públicos e Empresas Estatais;1;;00010;Pontuação Governo e Corporativo - Nordeste;17/03/2009;Aprovado
+224;INSTITUTO NACIONAL DO SEGURO SOCIAL  ;3;Órgãos Públicos e Empresas Estatais;1;;00013;Bônus diferenciado - Órgãos Públicos e Empresas Estatais - Região Sul;18/03/2009;Aprovado
+225;Casa Militar do Governador;3;Órgãos Públicos e Empresas Estatais;1;;00010;Pontuação Governo e Corporativo - Nordeste;23/03/2009;Aprovado
+226;RSG Serviços Graficos Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;25/03/2009;Aprovado
+227;FIAT S/A;6;Empresas / Estados RJ; MG e ES;1;;;;27/03/2009;Aprovado
+228;Sollus Gestora de Terras Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;27/03/2009;Aprovado
+229;In Press Assessoria de Imprensa;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;27/03/2009;Aprovado
+230;COMIN Automação Industrial LTDA;5;Empresas / Estado de São Paulo;1;;;;03/04/2009;Aprovado
+231;Thymus Consultoria em Identidade de Marca Ltda;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;13/04/2009;Aprovado
+232;Klima Equipamentos Ltda;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;16/04/2009;Aprovado
+233;prodem produtos odontologicos ltda ;5;Empresas / Estado de São Paulo;1;;00001;Pontuação VAR-Sudeste;17/04/2009;Aprovado
+234;CERVEJARIA PETROPOLIS S/A;5;Empresas / Estado de São Paulo;9;Star BKS-Outsourcing;00009;Pontuação Governo e Corporativo - Sudeste;22/04/2009;Aprovado
+235;Casa Omnigráfica de Máquinas ltda;4;Revendedor;1;;00001;Pontuação VAR-Sudeste;24/04/2009;Aprovado
+236;Insituto Ágape de Ensino;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;28/04/2009;Aprovado
+237;Psychemedics Brasil Exames Toxicologicos Ltda.;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;28/04/2009;Aprovado
+238;CIA HERING;7;Empresas / Estados PR; SC e RS;1;;;;28/04/2009;Aprovado
+239;cardiologistas associados;6;Empresas / Estados RJ; MG e ES;1;;00009;Pontuação Governo e Corporativo - Sudeste;29/04/2009;Aprovado
+240;Geojá Mapas Digitais;5;Empresas / Estado de São Paulo;1;;00009;Pontuação Governo e Corporativo - Sudeste;04/05/2009;Aprovado
+241;Teste Teste;2;Usuário Final-cadastro com CPF (à partir de 15 cart.);1;;;;12/05/2009;Aprovado

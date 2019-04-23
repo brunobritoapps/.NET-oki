@@ -1,0 +1,198 @@
+<!--#include file="_config/_config.asp" -->
+<%Call open()%>
+<%Call getSessionUser()%>
+<%
+	dim cod_consolidador
+	dim idcliente
+	
+	session("ItensPaginacao") = ""
+	session("TotalPontosUtilizados") = ""
+	session("idprodutos") = ""
+	session("valorprodutos") = ""
+	session("quantidade") = ""
+	session("sSearch") = ""
+
+	function getSolicitacoesByCliente()
+		dim sql, arr, intarr, i
+		dim j, arr2, intarr2
+		dim html
+		dim style
+		dim saldo
+		dim saldoTotal
+		dim sDataResgate
+		saldoTotal = 0
+		sql = "select distinct(bonus.numero_solicitacao) " & _
+			  "from bonus_gerado_clientes as bonus  " & _
+			  "left join clientes as cli " & _
+			  "on bonus.clientes_idclientes = cli.idclientes " & _
+			  "where bonus.clientes_idclientes in (select idclientes from clientes where cod_cli_consolidador = "&session("IDCliente")&" or idclientes = "&session("IDCliente")&")"
+		'response.write sql & "<hr>"
+		'response.end
+		call search(sql, arr, intarr)
+		if intarr > -1 then
+			for i=0 to intarr
+				sql = "select " & _
+						"pontuacao, " & _
+						"pontuacao_atingir, " & _
+						"day(data_geracao) as dia_geracao, " & _
+						"month(data_geracao) as mes_geracao, " & _
+						"year(data_geracao) as ano_geracao, " & _
+						"day(data_validade), " & _
+						"month(data_validade), " & _
+						"year(data_validade), " & _
+						"saldo, " & _
+						"moeda, " & _
+						"day(data_resgate), " & _
+						"month(data_resgate), " & _
+						"year(data_resgate) " & _
+						"from bonus_gerado_clientes where numero_solicitacao = '"&arr(0,i)&"'"
+'					response.write sql & "<br />"
+				call search(sql, arr2, intarr2)
+				if intarr > -1 then
+'						response.write datediff("d", arr2(5,j)&"/"&arr2(6,j)&"/"&arr2(7,j), now()) & "<br />"
+'						html = html & "<tr>"
+'						html = html & "<th colspan=""5"">"&arr(0,i)&"</th>"
+'						html = html & "</tr>"
+					j=0
+					sDataResgate = arr2(10,j)&"/"&arr2(11,j)&"/"&arr2(12,j)
+					saldo = arr2(8,j)
+					if datediff("d", arr2(5,j)&"/"&arr2(6,j)&"/"&arr2(7,j), now()) < 0 and clng(saldo) <> 0 then 'and len(sDataResgate) = 2 then
+						saldoTotal = saldoTotal + clng(saldo)
+						if i mod 2 = 0 then
+							style = "class=""classColorRelPar"""
+						else
+							style = "class=""classColorRelImpar"""
+						end if
+						html = html & "<tr>"
+						if getIDSolicitacao(arr(0,i)) <> 0 then
+							html = html & "<td "&style&"><img src=""img/buscar.gif"" class=""imgexpandeinfo"" onClick=""javascript:window.open('frmviewsol.asp?idsol="&getIDSolicitacao(arr(0,i))&"','','width=720,height=600,scrollbars=no,status=no,location=no,toolbar=no,menubar=no');"" /></td>"
+						else
+							html = html & "<td "&style&"><img src=""img/buscar.gif"" /></td>"
+						end if
+						html = html & "<td "&style&">"&arr(0,i)&"</td>"
+						html = html & "<td "&style&">"&arr2(2,j)&"/"&arr2(3,j)&"/"&arr2(4,j)&"</td>"
+						html = html & "<td "&style&">"&arr2(5,j)&"/"&arr2(6,j)&"/"&arr2(7,j)&"</td>"
+						if arr2(10,j) <> "" and arr2(11,j) <> "" and arr2(12,j) <> "" then
+							html = html & "<td "&style&">"&arr2(10,j)&"/"&arr2(11,j)&"/"&arr2(12,j)&"</td>"
+						else
+							html = html & "<td "&style&">##/##/#####</td>"
+						end if
+						html = html & "<td "&style&">"&arr2(9,j)&"</td>"
+						html = html & "<td "&style&">"&getPontuacaoBySolicitacao(arr(0,i))&"</td>"
+						html = html & "<td "&style&">"
+						if clng(saldo) <> 0 then
+							html = html & saldo
+						else							
+							html = html & "resgatado"
+						end if						
+						html = html & "</td>"
+						html = html & "</tr>"
+					end if
+				end if
+			next
+			html = html & "<tr>"
+			'html = html & "<td colspan=""2"" align=""left""><a href=""frmviewbonusresgatadoscliente.asp"" class=""linkOperacional"" target=_blank>Bonus resgatados</a></td>"
+			'html = html & "<td colspan=""6"" align=""right""><a href=""frmviewopcoesresgate.asp"" class=""linkOperacional"">Opções de Resgate</a>&nbsp;&nbsp;&nbsp;&nbsp;<b>Saldo Acumulado:</b> "&saldoTotal&"&nbsp;&nbsp;</td>"
+            html = html & "<td colspan=""2"" align=""left""><b>Saldo Acumulado:</b> "&saldoTotal&"&nbsp;&nbsp;</td>"
+			html = html & "</tr>"
+			getSolicitacoesByCliente = html
+		else
+			html = html & "<tr><td colspan=""8"" align=""center"">Nenhum bônus foi gerado até o momento</td></tr>"
+			getSolicitacoesByCliente = html
+		end if
+	end function
+
+	function getIDSolicitacao(numero)
+		dim sql, arr, intarr, i
+		dim idnumero
+		sql = "SELECT [idSolicitacao_coleta] " & _
+				  ",[numero_solicitacao_coleta] " & _
+			  "FROM [marketingoki2].[dbo].[Solicitacao_coleta] " & _
+			  "WHERE [numero_solicitacao_coleta] = '"&numero&"'"
+		call search(sql, arr, intarr)
+		if intarr > -1 then
+			for i=0 to intarr
+				getIDSolicitacao = arr(0,i)
+			next
+		else
+			getIDSolicitacao = 0
+		end if
+	end function
+
+	function getPontuacaoBySolicitacao(solicitacao)
+		dim sql, arr, intarr, i
+		sql = "select " & _
+				"sum(pontuacao) " & _
+				"from bonus_gerado_clientes where numero_solicitacao = '"&solicitacao&"'"
+		call search(sql, arr, intarr)
+		if intarr > -1 then
+			for i=0 to intarr
+				getPontuacaoBySolicitacao = clng(arr(0,i))
+			next
+		else
+			getPontuacaoBySolicitacao = 0
+		end if
+	end function
+
+%>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/geral.css">
+<style>
+	label {
+		font-weight:bold;
+	}
+</style>
+<title><%=TITLE%></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+    <div id="container">
+        <!--#include file="inc/i_header.asp" -->
+        <div id="conteudo">
+            <form action="frmviewbonusgeradocliente.asp" name="frmviewbonusgeradocliente" method="POST">
+                <table cellpadding="0" cellspacing="0" width="775" align="left" id="tableEditSolicitacaoColetaAdm" border="0">
+                    <tr>
+                        <td width="11" background="img/Bg_LatEsq.gif">&nbsp;</td>
+                        <td id="conteudo">
+                            <table cellpadding="3" cellspacing="0" width="100%">
+                                <tr>
+                                    <td id="explaintitle" colspan="2" align="center">Visualizar Bônus Resgatados</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" align="right"><a class="linkOperacional" href="javascript:window.location.href='frmOperacionalCliente.asp';">&laquo Voltar</a></td>
+                                </tr>
+
+                                <tr id="trnumsolcoleta">
+                                    <td>
+                                        <div style="overflow: auto; width: 100%; height: 615px;">
+                                            <table cellpadding="1" cellspacing="1" width="100%" id="tableGetClientesCadastro" style="border: 1px solid #000000;">
+                                                <tr>
+                                                    <th width="2%">
+                                                        <img src="img/check.gif"></th>
+                                                    <th>Número Solicitação</th>
+                                                    <th>Data Geração</th>
+                                                    <th>Data Validade</th>
+                                                    <th>Data Resgate</th>
+                                                    <th>Moeda</th>
+                                                    <th>Pontuação</th>
+                                                    <th>Saldo</th>
+                                                </tr>
+                                                <%=getSolicitacoesByCliente()%>
+                                            </table>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="11" background="img/Bg_LatDir.gif">&nbsp;</td>
+                    </tr>
+                </table>
+                <!--#include file="inc/i_bottom.asp" -->
+        </div>
+    </div>
+</body>
+
+</html>
+<%Call close()%>

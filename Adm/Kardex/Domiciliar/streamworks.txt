@@ -1,0 +1,3 @@
+senha:[ appserveradm, one step ahead, su root:jXj2aBH1V3]
+mysql:[ root:Hy&d8$gb ]
+exception: [org.hibernate.exception.JDBCConnectionException: could not execute query]

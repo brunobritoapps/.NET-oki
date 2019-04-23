@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* ----------------------------------------------------------------
+Structure= Contents Area
+----------------------------------------------------------------- */
+.checkbox1 {
+	position: relative;
+	display: block;
+	margin: 0 0 20px 0;
+}
+
+.checkbox1 label {
+	min-height: 20px;
+	padding-left: 20px;
+	margin-bottom: 0;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+.checkbox1 input[type=checkbox] {
+	position: absolute;
+	margin-left: -20px;
+}
+
+.clearButton {
+	padding: 0 20px 0 20px;
+	border: none;
+	float: left;
+	height: 30px;
+	color: #fff;
+	background-color: #898989;
+	font-style: italic;
+	text-align: center;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.clearButton:hover{
+	opacity:0.75;
+}
+
+.leftNav2 {
+	padding: 10px 10px 10px 10px;
+}
+
+.leftNav2Inner {
+	margin: 0 0 10px 0;
+	padding: 10px 0 0 0;
+}
+
+.leftNav2Inner h3 {
+	margin: 0 0 10px 0;
+}
+
+.leftNavNip {
+	margin: 0 0 10px 0;
+	padding: 10px 0 0 0;
+}
+
+.leftNavSidm {
+	margin: 0 0 10px 0;
+	padding: 10px 0 0 0;
+}
+
+.leftNavDicom {
+	margin: 0 0 10px 0;
+	padding: 10px 0 0 0;
+}
+
+.buttonWrapper {
+	margin: 0 0 20px 0;
+	float: right;
+}
+
+.buttonWrapper a {
+	display: inline-block;
+}
+
+.sideAccordion {
+	margin: 0 0 0 0;
+	padding: 0 5px 0 45px;
+	min-height: 30px;
+	color: #fff;
+	background-color: #595959;
+	cursor: pointer;
+}
+
+.sideAccordion p {
+	padding: 5px 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.sideAccordionInner {
+	padding: 10px 5px 10px 10px;
+	background-color: #fff;
+}
+
+.leftNavLine {
+	margin: 0 0 0 0;
+	border-bottom: 1px solid #8c8c8c;
+}
+
+.dtlOn {
+	background-image: url("../img/accordion_arrow_on.png");
+	background-repeat: no-repeat;
+	background-position: 2% center;
+}
+
+.dtlOff {
+	background-image: url("../img/accordion_arrow_off.png");
+	background-repeat: no-repeat;
+	background-position: 2% center;
+}
+
+.lineTopBottom {
+	padding: 10px 0 0 0;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	border-top: 1px solid #e2e2e2;
+}
+
+.selectorDisabled {
+	background-color: #F5F5F5;
+	width: 347px; */
+}
+
+@media only screen and (min-width : 320px) and (max-width : 980px) {
+	.selectorDisabled {
+		width: auto;
+		min-height:auto;
+	}
+}
+
+.selectorDisabled .selectorWrapper {
+	background-color: #FFF;
+	opacity: 0.5;
+}
+
+.selectorDisabled .selectorItem {
+	visibility: hidden;
+}
+
+.selectorDisabled .selectorItem {
+	visibility: hidden;
+}
+
+.selectorWrapper {
+	margin: 0 0 20px 0;
+	border: 1px solid #e2e2e2;
+	box-shadow: 5px 5px #e2e2e2;
+	width: 347px;
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 980px) {
+	.selectorWrapper {
+		margin: 0 0 10px 0;
+		width: auto;
+		min-height:auto;
+	}
+}
+
+.selectorWrapper h2 {
+	margin: 0 0 10px 0;
+	height:50px;
+	word-break:break-word;
+	overflow:hidden;
+}
+
+.selectorInner {
+	padding: 5px 3px 0 8px;
+	border-bottom: 1px solid #e2e2e2;
+	//height: 330px;
+	overflow: hidden;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.selectorInner {
+		//height: 100%;
+	}
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+	.selectorInner {
+		height: 295px;
+	}
+}
+
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	::i-block-chrome, .selectorInner {
+		height: 330px;
+	}
+}
+*/
+
+.selectorInner .col-sm-4 {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.selectorInner2 {
+	overflow: hidden;
+}
+
+.selectorText {
+	margin: 0 0 5px 0;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 45px;
+}
+
+.selectorTable {
+
+}
+
+.selectorTablePrice {
+	font-weight: bold;
+}
+
+.selectorTable tr {
+	height: 41px
+}
+
+.selectorTable td {
+	padding: 0 0 1px 8px;
+	font-size: 0.94em; /*13px*/
+}
+
+@media only screen and (min-width : 768px) and (max-width : 910px) {
+	.selectorTable td {
+		line-height: 1.1;
+	}
+}
+
+.selectorTable td:first-child {
+	padding: 0 0 3px 0;
+	width: 10%;
+}
+
+.selectorItem {
+	padding: 10px 0 10px 10px;
+	float: left;
+	width: 172px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 766px) {
+	.selectorItem {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 985px) {
+	.selectorItem {
+		width: 125px;
+	}
+}
+
+.selectorItem2 {
+	padding: 10px 0 10px 10px;
+	float: left;
+	background-color: #000;
+	background-image: url("../img/arrow_right_white.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: #fff;
+	width: 173px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.selectorItem2 {
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 985px) {
+	.selectorItem2 {
+		padding: 10px 0 10px 2px;
+		width: 126px;
+	}
+}
+
+.selectorMore {
+	margin: 45px 0 0 0;
+}
+
+.resultTable {
+	table-layout: fixed;
+	width: 100%;
+}
+
+.resultTable a{
+	font-weight:normal;
+}
+
+.resultTable th {
+	border-right: 1px solid #aaa;
+	padding: 10px 10px 10px 10px;
+	vertical-align: top;
+
+}
+
+.resultTable td {
+	border-right: 1px solid #aaa;
+	padding: 10px 10px 10px 10px;
+}
+
+.resultTable td:first-child {
+	font-weight: bold;
+}
+
+.resultTable tr:nth-child(even) {
+	background-color: #e2e2e2;
+}
+
+.resultTableP {
+	font-weight: normal;
+	height:45px;
+	overflow:hidden;
+}
+
+.resultTableH {
+	margin: 0 0 15px 0;
+	line-height: 1.25;
+	font-size: 1.429em; /* 20px */
+	font-weight:bold;
+	height:50px;
+	overflow:hidden;
+}
+
+.resultTable img {
+	padding: 0 0 10px 25px;
+}
+
+.resultTablePrice {
+	padding: 0 5px 0 0 !important;
+	margin: 0 0 5px 0;
+}
+
+.resultTable ul {
+	padding-left: 20px;
+}
+
+
+.resultTable .buttonWrapperL {
+	float: none;
+	padding: 5px 0 0 0;
+}
+
+.tabItem {
+	height: 210px;
+}
+
+.tabItemContent {
+	height: 65px;
+	overflow: hidden;
+}
+
+.productImg {
+	margin: 0 auto;
+}
+
+.productlistBox {
+	padding: 30px 10px 30px 10px;
+	width: 100%;
+	border-bottom: solid 1px #e2e2e2;
+}
+
+.productlistBoxInner {
+	margin: 0 0 20px 0;
+}
+
+.contactDealer {
+	text-decoration: underline !important;
+}
+
+/*------------------------------------------
+
+1. margin (margin-top/margin-right/margin-bottom/margin-left)
+2. padding (padding-top/padding-right/padding-bottom/padding-left)
+3. border-width (border-top-width/border-right-width/border-bottom-width/border-left-width)
+4. border-color (border-top-color/border-right-color/border-bottom-color/border-left-color)
+5. border-style (border-top-style/border-right-style/border-bottom-style/border-left-style)
+6. border (border-top/border-bottom/border-right/border-left)
+7. display
+8. position
+9. top
+10. right
+11. bottom
+12. left
+13. float
+14. clear
+15. z-index
+16. width (min-width/max-width)
+17. height (min-height/max-height)
+18. line-height
+19. vertical-align
+20. overflow
+21. clip
+22. visibility
+23. list-style (list-style-type/list-style-image/list-style-position)
+24. color
+25. background (background-color/background-image/background-repeat/backgroundattachment/
+background-position)
+26. font (font-family/font-style/font-variant/font-weight/font-size)
+27. text-indent
+28. text-align
+29. text-decoration
+30. letter-spacing
+31. word-spacing
+32. white-space
+-----------------*/

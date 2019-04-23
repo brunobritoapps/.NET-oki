@@ -1,0 +1,35 @@
+Data Solicitação;Número Solicitação;Cod. Cliente;Razão Social;Qtd. Cartuchos;Data Programada;Status
+05/09/2007;C07090000142;1;BANCO ITAU S. A.                        ;164;06/09/2007;Encerrada
+05/09/2007;C07090000223;2;BANCO ITAU S. A.                        ;436;06/09/2007;Encerrada
+05/09/2007;C07090000304;3;BANCO ITAU S. A.                        ;117;06/09/2007;Encerrada
+05/09/2007;C07090000576;1;BANCO ITAU S. A.                        ;100;06/09/2007;Encerrada
+06/09/2007;C07090001386;1;BANCO ITAU S. A.                        ;100;06/09/2007;Encerrada
+06/09/2007;C07090001548;1;BANCO ITAU S. A.                        ;250;06/09/2007;Encerrada
+06/09/2007;C07090001700;3;BANCO ITAU S. A.                        ;200;06/09/2007;Encerrada
+06/09/2007;C07090001890;3;BANCO ITAU S. A.                        ;500;25/09/2007;Em trânsito
+06/09/2007;C07090001971;3;BANCO ITAU S. A.                        ;300;;Aguardando coleta
+06/09/2007;C07090002005;3;BANCO ITAU S. A.                        ;400;25/09/2007;Encerrada
+10/09/2007;C07090004563;1;BANCO ITAU S. A.                        ;100;10/09/2007;Encerrada
+11/09/2007;C07090007821;1;BANCO ITAU S. A.                        ;50;;Aguardando coleta
+13/09/2007;C07090012159;1;BANCO ITAU S. A.                        ;100;13/09/2007;Encerrada
+13/09/2007;C07090012310;1;BANCO ITAU S. A.                        ;100;13/09/2007;Encerrada
+13/09/2007;C07090012400;1;BANCO ITAU S. A.                        ;100;13/09/2007;Em trânsito
+17/09/2007;C07090018351;1;BANCO ITAU S. A.                        ;100;18/09/2007;Encerrada
+17/09/2007;C07090019161;1;BANCO ITAU S. A.                        ;100;18/09/2007;Encerrada
+19/09/2007;C07090021654;1;BANCO ITAU S. A.                        ;100;;Aguardando coleta
+10/10/2007;C07100004056;1;BANCO ITAU S. A.                        ;100;;Rejeitada
+10/10/2007;C07100004137;1;BANCO ITAU S. A.                        ;50;11/10/2007;Encerrada
+10/10/2007;C07100004218;1;BANCO ITAU S. A.                        ;30;11/10/2007;Encerrada
+08/11/2007;C07110001742;1;BANCO ITAU S. A.                        ;50;;Aguardando coleta
+10/12/2007;C07120000897;1;BANCO ITAU S. A.                        ;100;;Em espera de Aprovação
+10/12/2007;C07120000978;1;BANCO ITAU S. A.                        ;50;;Em espera de Aprovação
+10/12/2007;C07120001354;1;BANCO ITAU S. A.                        ;60;;Em espera de Aprovação
+12/12/2007;C07120005260;1;BANCO ITAU S. A.                        ;100;;Em espera de Aprovação
+12/12/2007;C07120005341;1;BANCO ITAU S. A.                        ;50;;Em espera de Aprovação
+12/12/2007;C07120005422;1;BANCO ITAU S. A.                        ;70;;Em espera de Aprovação
+12/12/2007;C07120005503;1;BANCO ITAU S. A.                        ;45;;Em espera de Aprovação
+12/12/2007;C07120005694;1;BANCO ITAU S. A.                        ;66;;Em espera de Aprovação
+12/12/2007;C07120005775;1;BANCO ITAU S. A.                        ;44;;Em espera de Aprovação
+12/12/2007;C07120005856;1;BANCO ITAU S. A.                        ;55;;Em espera de Aprovação
+12/12/2007;C07120005937;1;BANCO ITAU S. A.                        ;55;;Em espera de Aprovação
+12/12/2007;C07120006070;1;BANCO ITAU S. A.                        ;63;;Em espera de Aprovação

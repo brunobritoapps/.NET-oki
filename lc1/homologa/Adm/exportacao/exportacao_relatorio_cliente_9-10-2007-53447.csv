@@ -1,0 +1,33 @@
+Cod. Cliente;Razão Social;Cod. Categoria;Desc. Categoria;Cod. Grupo;Desc. Grupo;Cod. Bônus;Desc. Bônus;Data Cadastro
+1;BANCO ITAU S. A.                        ;1;Corporativa;1;OKIDATA;00018;Super bonus;05/09/2007
+2;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007
+3;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007
+4;BANCO ABN AMRO REAL S/A                 ;1;Corporativa;3;;00002;Contribuição;05/09/2007
+5;Luciano Siqueira;2;Usuário Final;1;OKIDATA;;;05/09/2007
+6;MIRACULA STORE;1;Corporativa;3;;00013;Cadastro de Bonus para a Miracula Store;
+7;CARMEL COMERCIAL LTDA ;1;Corporativa;3;;00004;Clientes Regiao Sul;
+8;NEXXIA;1;Corporativa;3;;00015;fhsuhfihif;
+9;LEANDRO STOROLI DOS SANTOS;2;Usuário Final;1;OKIDATA;;;
+10;IMPRESSORA OKI;1;Corporativa;3;;;;
+11;ALLDORA TECNOLOGIA LTDA;1;Corporativa;3;;00004;Clientes Regiao Sul;
+12;ORBIUM;1;Corporativa;3;;00015;fhsuhfihif;
+13;paula tami oshiro;3;Governo;4;Miracula;;;
+14;TRIBUNAL DE JUSTIÇA DO MS;3;Governo;4;Miracula;00018;Super bonus;
+15;Érico Tooru Tanji ;1;Corporativa;3;;00018;Super bonus;
+16;ABBOTT LABORATORIOS DO BRASIL LTDA      ;2;Usuário Final;1;OKIDATA;;;
+17;Horiba ABX Diagnostics;1;Corporativa;3;;00018;Super bonus;
+18;ACCEPT COM.E SERVICO DE TECNOLOGIA LTDA ;1;Corporativa;3;;;;
+19;JARDIN DE LOS OLIVOS RESTAURANTE LTDA   ;2;Usuário Final;1;OKIDATA;;;
+20;joa;1;Corporativa;3;;;;
+21;TESTE MIRACULA;1;Corporativa;3;;;;
+22;TESTE MIRACULA 2;1;Corporativa;3;;;;
+23;TESTE MIRACULA 3;1;Corporativa;3;;;;
+24;TESTE MIRACULA 3;1;Corporativa;3;;00018;Super bonus;
+25;Premier TI;1;Corporativa;3;;00018;Super bonus;
+26;Companhia Metropolityano de São PAulo;3;Governo;4;Miracula;00018;Super bonus;
+27;Èrico Tooru Tanji;2;Usuário Final;1;OKIDATA;;;
+28;Klima Campinas;1;Corporativa;3;;;;
+29;ASK INFORMATICA LTDA;1;Corporativa;3;;00018;Super bonus;
+30;Maderada;1;Corporativa;3;;00018;Super bonus;
+31;Okidata;1;Corporativa;3;;00018;Super bonus;
+32;Érico Tooru Tanji;1;Corporativa;3;;00024;EXPIRADO;

@@ -1,0 +1,11 @@
+<%
+	'|--------------------------------------------------------------------
+	'| Arquivo: colectobject.asp																									 
+	'| Autor: Leandro dos Santos (leandro.storoli@gmail.com)						 
+	'| Data Criação: 13/04/2007																					 
+	'| Data Modificação : 15/04/2007																		 
+	'| Descrição: Arquivo de Coleta os objetos que não serão usados mais
+	'|--------------------------------------------------------------------
+'	Set oEmail = Nothing
+	Set oConn = Nothing
+%>

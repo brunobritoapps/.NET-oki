@@ -1,0 +1,17 @@
+Data Solicitação;Número Solicitação;Cod. Cliente;Razão Social;Qtd. Cartuchos;Data Programada;Status
+04/02/2013;C13040000925;666;Centro de Imagem Diagnósticos;20;;Cancelada
+06/27/2013;C13060010020;666;Centro de Imagem Diagnósticos;100;07/01/2013;Encerrada
+06/27/2013;C13060009871;666;Centro de Imagem Diagnósticos;100;;Rejeitada
+06/27/2013;C13060009600;666;Centro de Imagem Diagnósticos;100;;Rejeitada
+11/08/2013;C13110002565;666;Centro de Imagem Diagnósticos;48;11/11/2013;Encerrada
+11/12/2013;C13110003537;666;Centro de Imagem Diagnósticos;28;11/13/2013;Encerrada
+11/22/2013;C13110007362;666;Centro de Imagem Diagnósticos;21;11/26/2013;Encerrada
+12/06/2013;C13120002509;666;Centro de Imagem Diagnósticos;32;12/11/2013;Encerrada
+10/09/2013;C13100002104;666;Centro de Imagem Diagnósticos;64;10/11/2013;Encerrada
+09/24/2013;C13090007087;666;Centro de Imagem Diagnósticos;34;;Aguardando coleta
+07/05/2013;C13070002047;666;Centro de Imagem Diagnósticos;63;07/15/2013;Em trânsito
+07/31/2013;C13070011461;666;Centro de Imagem Diagnósticos;47;08/05/2013;Encerrada
+08/28/2013;C13080013602;666;Centro de Imagem Diagnósticos;28;09/02/2013;Encerrada
+02/20/2014;C14020009330;666;Centro de Imagem Diagnósticos;20;02/24/2014;Encerrada
+09/25/2014;C14090010132;666;Centro de Imagem Diagnósticos;56;;Em espera de Aprovação
+07/31/2014;C14070015120;666;Centro de Imagem Diagnósticos;425;;Aprovada

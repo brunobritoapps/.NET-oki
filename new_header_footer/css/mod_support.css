@@ -1,0 +1,445 @@
+@charset "utf-8";
+/* ----------------------------------------------------------------
+Structure= Contents Area
+----------------------------------------------------------------- */
+.refineContentsBox {
+	padding: 10px 0 10px 0;
+	border: solid 1px #eee;
+	background-color: #ffffff;
+}
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.refineContentsBox{
+		padding: 10px 10px 10px 0;
+	}
+}
+
+.refineContentsBox .col-xs-12 {
+	margin: 0 0 20px 0;
+}
+
+.refineContentsBoxInner {
+	padding: 0 0 0 15px;
+}
+
+.listBox {
+	padding: 30px 0 20px 0;
+	border-top: solid 1px #e2e2e2;
+}
+
+.listTitle {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.listBox a{
+	word-break: break-word;
+}
+
+.contentsSearch { //
+	width: 100%;
+	height: 36px;
+}
+
+.centerButton {
+	margin: auto;
+	width: 525px;
+	min-height: 40px;
+	color: #fff;
+	background-color: #212121;
+	background-image: url("../img/arrow_right_white.png");
+	background-repeat: no-repeat;
+	background-position: 99% 55%;
+	text-align: center;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.centerButton {
+		padding: 0 0 10px 0;
+		width: 300px;
+		background-position: 100% 55%;
+	}
+}
+
+.centerButton p {
+	padding: 10px 0 0 0;
+}
+
+.selectModelWrapper{
+margin: 0 0 20px 0;
+}
+
+
+.selectModelWrapper h3{
+font-weight:normal;
+max-height:70px;
+word-break:break-word;
+overflow:hidden;
+}
+
+.moreResultLink {
+	margin: auto;
+	padding: 25px 0 0 0;
+	width: 300px;
+	height: 70px;
+	color: #fff;
+	background-color: #212121;
+	background-image: url("../img/arrow_right_white.png");
+	background-repeat: no-repeat;
+	background-position: 90% 55%;
+	font-style: italic;
+	text-align: center;
+}
+
+.warrantyTable {
+	margin: 0 0 20px 0;
+	display: table;
+	table-layout: fixed;
+	width: 100% word-wrap:   break-word;
+	overflow-wrap: break-word;
+}
+
+.warrantyTable th {
+	padding: 0 5px 0 0;
+	width: 40%;
+}
+
+.warrantyTable td {
+	padding: 0 0 0 5px;
+	width: 60%;
+}
+
+.dataSheetName {
+	margin: 0 0 10px 0;
+	padding: 5px 5px 0px 45px;
+	min-height: 40px;
+	cursor: pointer;
+}
+
+.dataSheetName.dtlOn {
+	background-image: url("../img/accordion_arrow_black_on.png");
+	background-repeat: no-repeat;
+	background-position: 2% center;
+}
+
+.dataSheetName.dtlOff {
+	background-image: url("../img/accordion_arrow_black_off.png");
+	background-repeat: no-repeat;
+	background-position: 2% center;
+}
+
+.onlineManualBox {
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	padding-top: 10px;
+}
+
+.radiolistBox {
+	padding: 15px 0 0 0;
+	border-top: solid 1px #e2e2e2;
+}
+
+.downloadBtn {
+	margin: 10px 0 0 0;
+	max-width: 450px;
+	min-height: 50px;
+	color: #fff;
+	background-color: #212121;
+	background-image: url("../img/arrow_right_white.png");
+	background-repeat: no-repeat;
+	background-position: 97% 55%;
+}
+
+.btnInner {
+	padding: 15px 25px 10px 15px;
+}
+
+@media only screen and (min-width : 768px) {
+	.centerChara {
+		text-align: center;
+	}
+}
+
+.contactSubmitBtn {
+	margin: 30px 0 0 0;
+	min-height: 50px;
+	color: #fff;
+	background-color: #595959;
+	background-image: url("../img/arrow_right_white.png");
+	background-repeat: no-repeat;
+	background-position: 98% 55%;
+}
+
+.requiredMark {
+	color: #ff0000;
+	margin: 0 5px 0 5px;
+}
+
+/* bootstrap form�W���΍� */
+.form-horizontal .labelLeft {
+	text-align: left;
+}
+
+.form-horizontal .shortText {
+	width: 200px;
+}
+
+.formError {
+	color: #ff0000;
+}
+
+.formError span {
+	color: #ff0000;
+}
+
+.formError input {
+	border-color: #ff0000;
+}
+
+.formError textarea {
+	border-color: #ff0000;
+}
+
+.formError select {
+	border-color: #ff0000;
+}
+
+span.help {
+	color: #737373;
+}
+
+.selectFileBtn {
+	height: 34px;
+	color: #fff;
+	background-color: #595959;
+	background-image: url("../img/arrow_right_white.png");
+	background-repeat: no-repeat;
+	background-position: 98% 55%;
+}
+
+.selectFileBtn p {
+	padding: 7px 25px 0 15px;
+}
+
+.paginationCentered {
+	text-align: center;
+}
+
+.paginationCentered li a {
+	margin-left: 3px;
+	color: #212121;
+	background-color: #e2e2e2;
+}
+
+.paginationCentered li.active a {
+	border-color: #b8b8b8;
+	background-color: #b8b8b8;
+	font-weight: bold;
+}
+
+.paginationCentered li.active a:hover {
+	border-color: #b8b8b8;
+	background-color: #b8b8b8;
+	opacity: 0.75;
+}
+
+.dealerResult {
+	margin: 0 0 20px 0;
+	border: 1px solid #e2e2e2;
+	height: 485px;
+	overflow: scroll;
+}
+
+.dealerResult a:hover{
+	text-decoration: none;
+}
+.dealerResultSelected {
+padding: 10px 10px 10px 10px;
+background-color:#d6d6d6;
+border-bottom: solid 1px #e2e2e2;
+cursor:pointer;
+}
+
+
+.dealerResultSelectedNoMap .dealerResultSelected {
+	background-color:#fff;
+cursor:default;
+}
+
+.dealerResultSelectedNoMap .dealerResultNotSelected {
+	background-color:#fff;
+	cursor:default;
+}
+
+.dealerResultSelectedNoMap .dealerResultNotSelected:hover {
+	background-color:#fff;
+}
+.dealerResultNotSelected {
+padding: 10px 10px 10px 10px;
+background-color:#fff;
+border-bottom: solid 1px #e2e2e2;
+cursor:pointer;
+}
+
+.dealerResultNotSelected:hover{
+	background-color:#f5f5f5;
+}
+
+.dealerColor {
+	color: #ff0000;
+}
+
+.dealerMap {
+	height:485px;
+
+}
+
+.dealerLocation {
+	position: relative;
+	width:21px;
+	top: -200px;
+	left: 55px;
+	position: relative;
+}
+
+.dealerDetail {
+	padding: 5px 10px 5px 10px;
+	position: relative;
+	width: 190px;
+	top: -345px;
+	left: 50px;
+	border-bottom: 5px solid #ff0000;
+	border-top: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	background-color: #fff;
+	box-shadow: 5px 5px #555555;
+}
+
+.mapLabel {
+	margin: 10px 0 10px 0;
+	line-height: 1.35;
+	font-weight: bold;
+	font-size: 1.286em; /* 18px */;
+	display: block;
+}
+
+
+.dealerLocationSelector {
+padding: 10px 0 0 0;	
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.dealerLocationSelector {
+		padding: 5px 0 0 0;
+	}
+}
+
+.dealerToggle{
+	font-weight: bold;
+}
+
+.dealerToggle a{
+	color:#212121;
+}
+
+.resultAdjust{
+position: absolute;
+top: 135px;
+}
+@media only screen and (min-width : 320px) and (max-width : 382px) {
+	.resultAdjust{
+		top: 135px;
+	}
+}
+
+.resultAdjust2{
+position: absolute;
+top: 130px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 440px) {
+	.resultAdjust2{
+		top: 145px;
+	}
+}
+
+
+.rn_List{
+		font-size: 15px !important;
+		text-decoration:none !important;
+}
+
+.rn_List a{
+		text-decoration:none !important;
+}
+
+.rn_List a:hover{
+		text-decoration:underline !important;
+}
+
+.rn_Navigation{
+		font-size: 19px !important;
+		text-decoration:none !important;
+}
+
+.rn_Navigation a{
+		text-decoration:none !important;
+}
+
+.rn_Navigation a:hover{
+		text-decoration:underline !important;
+}
+
+.rn_Item{
+	line-height:1.7 !important;
+}
+
+/* bootstrap over write */
+.help-block {
+	margin: 0 0 0 0;
+}
+
+.checkbox-inline label, .radio-inline label {
+	min-height: 20px;
+	margin-bottom: 0;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+
+/*------------------------------------------
+
+1. margin (margin-top/margin-right/margin-bottom/margin-left)
+2. padding (/padding-right/padding-bottom/padding-left)
+3. border-width (border-top-width/border-right-width/border-bottom-width/border-left-width)
+4. border-color (border-top-color/border-right-color/border-bottom-color/border-left-color)
+5. border-style (border-top-style/border-right-style/border-bottom-style/border-left-style)
+6. border (border-top/border-bottom/border-right/border-left)
+7. display
+8. position
+9. top
+10. right
+11. bottom
+12. left
+13. float
+14. clear
+15. z-index
+16. width (min-width/max-width)
+17. height (min-height/max-height)
+18. line-height
+19. vertical-align
+20. overflow
+21. clip
+22. visibility
+23. list-style (list-style-type/list-style-image/list-style-position)
+24. color
+25. background (background-color/background-image/background-repeat/backgroundattachment/
+background-position)
+26. font (font-family/font-style/font-variant/font-weight/font-size)
+27. text-indent
+28. text-align
+29. text-decoration
+30. letter-spacing
+31. word-spacing
+32. white-space
+-----------------*/

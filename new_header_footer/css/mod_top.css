@@ -1,0 +1,469 @@
+@charset "utf-8";
+/* ----------------------------------------------------------------
+Structure= Contents Area
+----------------------------------------------------------------- */
+#contentsAreaHome {
+margin:0 auto;
+	margin-bottom: 30px;
+	width: 960px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	#contentsAreaHome {
+		width: auto;
+	}
+}
+border: 1px solid  {
+	#e2e2e2;
+}
+
+.mainImgInnerH {
+	width: 765px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.mainImgInnerH {
+		width: auto;
+	}
+}
+
+.mainSideWrapper2 {
+	width: auto;
+	color: #fff;
+	text-align: center;
+}
+
+@media only screen and (min-width : 768px) {
+	.mainSideWrapper2 {
+		margin-left: -35px;
+		width: 195px;
+	}
+}
+
+.mainSideWrapper2 h2 {
+	margin: 0 0 0 0;
+	font-size: 1.429em;
+	font-weight: normal;
+}
+
+.mainSideWrapper2 p {;
+	margin: 0 0 0 0;
+}
+
+.mainSideWrapper2 img {
+	padding: 5px 0 5px 0;
+}
+
+.mainSideWrapper2 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.mainSide4 {
+	padding: 20px 10px 10px 10px;
+	height: 200px;
+	background-color: #aaa;
+	font-size: 1em;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.mainSide4 {
+		padding: 10px 10px 0 10px;
+		width: auto;
+		height: 230px;
+	}
+}
+
+a .mainSide4:hover {
+	opacity: 0.75;
+}
+
+.mainSide4 p{
+	display: table-cell;
+	height: 70px;
+	vertical-align:middle;
+width:175px;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.mainSide4 p{
+		display: table-cell;
+	height: 100px;
+	vertical-align:middle;
+width:225px;
+	}
+}
+
+.mainSide5 {
+	padding: 20px 10px 10px 10px;
+	height: 200px;
+	background-color: #8c8c8c;
+	font-size: 1em;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.mainSide5 {
+		padding: 10px 10px 0 10px;
+		width: auto;
+		height: 230px;
+	}
+}
+
+.mainSide5 p{
+	display: table-cell;
+	height: 70px;
+	vertical-align:middle;
+	width:175px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.mainSide5 p{
+		display: table-cell;
+	height: 100px;
+	vertical-align:middle;
+width:225px;
+	}
+}
+
+a .mainSide5:hover {
+	opacity: 0.5;
+}
+
+.navInfoWrapper {
+	min-width: 975px;
+	padding-bottom: 50px;
+	background: #ffffff; /* Old browsers gradient */
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 30%, #f5f5f5 31%, #f5f5f5
+		100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff),
+		color-stop(30%, #ffffff), color-stop(31%, #f5f5f5),
+		color-stop(100%, #f5f5f5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 30%, #f5f5f5 31%,
+		#f5f5f5 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #ffffff 30%, #f5f5f5 31%, #f5f5f5
+		100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 30%, #f5f5f5 31%, #f5f5f5
+		100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #ffffff 30%, #f5f5f5 31%, #f5f5f5
+		100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(     startColorstr='#ffffff',
+		endColorstr='#f5f5f5', GradientType=0); /* IE6-9 */
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+ 	.navInfoWrapper {
+ 	padding-right:2px;
+	min-width: 990px;
+	}
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.navInfoWrapper {
+		min-width: 320px;
+	}
+}
+
+.navInfoInner {
+	margin: 0 auto;
+	width: 960px;
+	color: #fff;
+}
+
+@media only screen and (min-width : 320px) and (max-width :767px) {
+	.navInfoInner {
+		width: auto;
+	}
+}
+
+.navInfoInner a {
+	display: block;
+	color: #fff;
+}
+
+.navInfoInner a:hover{
+	opacity:0.6;
+}
+
+.navInfo1 {
+	display: table;
+	background-color: #ff0000;
+	text-align: center;
+}
+
+.navInfo1 a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.navInfo2 {
+	display: table;
+	background-color: #d91713;
+	text-align: center;
+}
+
+.navInfo2 a {
+	color: #fff;
+}
+
+.navInfo3 {
+	display: table;
+	background-color: #fb6921;
+	text-align: center;
+}
+
+.navInfo4 {
+	display: table;
+	background-color: #f58630;
+	text-align: center;
+}
+
+.navInfo5 {
+	display: table;
+	background-color: #595959;
+	text-align: center;
+}
+
+.navInfo1 img, .navInfo2 img, .navInfo3 img, .navInfo4 img, .navInfo5 img{
+	max-width: initial;
+}
+
+.navInfoInner p {
+	display: table-cell;
+	height: 65px;
+	vertical-align: middle;
+	font-style:italic;
+	text-align: left;
+}
+
+@media only screen and (min-width : 320px) and (max-width :767px) {
+	
+.navInfoInner p  {
+		text-align: center;
+	}
+}
+
+.companyContentsWrapper {
+	padding-bottom: 50px;
+	min-width: 975px;
+	background-color: #f5f5f5;
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+ 	.companyContentsWrapper {
+ 	padding-right:2px;
+	min-width: 990px;
+	background-color: #f5f5f5;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.companyContentsWrapper {
+		min-width: 320px;
+	}
+}
+
+.contentsWrapper2 .companyContentsWrapper{
+	background-color: #fff;
+}
+
+.companyContentsInner {
+	margin: 0 auto;
+	width: 960px;
+	text-align: center;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.companyContentsInner {
+		width: auto;
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.companyContentsInner .row {
+		margin: 0;
+	}
+}
+
+.companyText1 {
+	padding: 10px 0 0 0;
+	position: absolute;
+	top: 86%;
+	width: 100%;
+	min-height: 40px;
+	color: #fff;
+	background-color: #424242;
+	opacity: 0.9;
+}
+
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.companyText1 {
+		width: 300px;
+		left: 1%;		
+	}
+}
+
+.companyText2 {
+	padding: 10px 0 0 0;
+	position: absolute;
+	top: 71%;
+	width: 100%;
+	min-height: 40px;
+	color: #fff;
+	background-color: #424242;
+	opacity: 0.9;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.companyText2 {
+		width: 300px;
+		left: 1%;
+	}
+}
+
+.companyImg1 {
+	margin: 0 0 22px 0;
+	position: relative;
+	cursor: pointer;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.companyImg2 {
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 306px;
+	}
+}
+
+.companyImg1:hover {
+	opacity: 0.75;
+}
+
+.companyImg2 {
+	position: relative;
+	cursor: pointer;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.companyImg1 {
+		margin: 0 auto;
+		margin-bottom: 20px;
+		width: 306px;
+	}
+}
+
+.companyImg2:hover {
+	opacity: 0.75;
+}
+
+.contentsDescription1 {
+	position: absolute;
+	top: -240%;
+	width: 100%;
+	height:140px;
+	background-color: #131313;
+	cursor: pointer;
+}
+
+.contentsDescription1 p {
+	padding: 0 0 20px 0;
+}
+
+.contentsDescription1 p:first-child {
+	padding: 10px 0 0 0;
+}
+
+.contentsDescription1 a {
+	padding: 10px 20px 10px 10px;
+	border: 1px solid #fff;
+	background-image: url("../img/arrow_right_white.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: #fff;
+	font-style: italic;
+}
+
+.contentsDescription2 {
+	position: absolute;
+	top: -275%;
+	width: 100%; background-color : #131313;
+	cursor: pointer;
+	background-color: #131313;
+}
+
+.contentsDescription2 p {
+	padding: 0 0 20px 0;
+}
+
+.contentsDescription2 p:first-child {
+	padding: 10px 0 0 0;
+}
+
+.contentsDescription2 a {
+	padding: 10px 20px 10px 10px;
+	border: 1px solid #fff;
+	background-image: url("../img/arrow_right_white.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	color: #fff;
+	font-style: italic;
+}
+
+.rowAdjust{
+	margin-right:-15px;
+	margin-left:-15px;
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	.rowAdjust {
+	margin-right:0px;
+	margin-left:0px;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	.companyContentsInner .rowAdjust {
+	margin-right:-15px;
+	margin-left:-15px;
+	}
+}
+
+
+/*------------------------------------------
+
+1. margin (margin-top/margin-right/margin-bottom/margin-left)
+2. padding (padding-top/padding-right/padding-bottom/padding-left)
+3. border-width (border-top-width/border-right-width/border-bottom-width/border-left-width)
+4. border-color (border-top-color/border-right-color/border-bottom-color/border-left-color)
+5. border-style (border-top-style/border-right-style/border-bottom-style/border-left-style)
+6. border (border-top/border-bottom/border-right/border-left)
+7. display
+8. position
+9. top
+10. right
+11. bottom
+12. left
+13. float
+14. clear
+15. z-index
+16. width (min-width/max-width)
+17. height (min-height/max-height)
+18. line-height
+19. vertical-align
+20. overflow
+21. clip
+22. visibility
+23. list-style (list-style-type/list-style-image/list-style-position)
+24. color
+25. background (background-color/background-image/background-repeat/backgroundattachment/
+background-position)
+26. font (font-family/font-style/font-variant/font-weight/font-size)
+27. text-indent
+28. text-align
+29. text-decoration
+30. letter-spacing
+31. word-spacing
+32. white-space
+-----------------*/

@@ -1,0 +1,23 @@
+Data Solicitação;Número Solicitação;Cod. Cliente;Razão Social;UF Cliente;Qtd. Cartuchos;Cód. Categoria;Desc. Categoria
+05/09/2007;C07090000142;1;BANCO ITAU S. A.                        ;SP;164;1;Corporativa
+05/09/2007;C07090000223;2;BANCO ITAU S. A.                        ;SP;436;1;Corporativa
+05/09/2007;C07090000304;3;BANCO ITAU S. A.                        ;PR;117;1;Corporativa
+05/09/2007;R09070000453;;;;2869;;
+05/09/2007;C07090000576;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+05/09/2007;C07090000657;4;BANCO ABN AMRO REAL S/A                 ;SP;1969;1;Corporativa
+05/09/2007;R09070000704;;;;10000;;
+05/09/2007;R09070000887;;;;30000;;
+05/09/2007;E07090000908;5;Luciano Siqueira;;5;2;Usuário Final
+06/09/2007;E07090001033;5;Luciano Siqueira;;100;2;Usuário Final
+06/09/2007;R09070001263;;;;1000000;;
+06/09/2007;C07090001386;1;BANCO ITAU S. A.                        ;SP;100;1;Corporativa
+06/09/2007;R09070001425;;;;10000;;
+06/09/2007;C07090001548;1;BANCO ITAU S. A.                        ;SP;250;1;Corporativa
+06/09/2007;R09070001697;;;;9948;;
+06/09/2007;C07090001700;3;BANCO ITAU S. A.                        ;PR;200;1;Corporativa
+06/09/2007;C07090001890;3;BANCO ITAU S. A.                        ;PR;500;1;Corporativa
+06/09/2007;C07090001971;3;BANCO ITAU S. A.                        ;PR;300;1;Corporativa
+06/09/2007;C07090002005;3;BANCO ITAU S. A.                        ;PR;400;1;Corporativa
+10/09/2007;R09070005099;;;;4;;
+10/09/2007;R09070005501;;;;40000;;
+06/09/2007;M07090001114;1;CONTEC INFORMATICA LTDA                 ;2;164;---;---

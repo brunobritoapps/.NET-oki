@@ -1,0 +1,30 @@
+Cod. Cliente;Razão Social;Cod. Categoria;Desc. Categoria;Cod. Grupo;Desc. Grupo;Cod. Bônus;Desc. Bônus;Data Cadastro
+1;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00018;Super bonus;05/09/2007
+2;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007
+3;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007
+4;BANCO ABN AMRO REAL S/A                 ;1;Corporativa;1;;00002;Contribuição;05/09/2007
+5;Luciano Siqueira;2;Usuário Final;1;;;;05/09/2007
+6;MIRACULA STORE;1;Corporativa;1;;00013;Cadastro de Bonus para a Miracula Store;10/09/2007
+7;CARMEL COMERCIAL LTDA ;1;Corporativa;1;;00004;Clientes Regiao Sul;10/09/2007
+8;NEXXIA;1;Corporativa;1;;00015;fhsuhfihif;11/09/2007
+9;LEANDRO STOROLI DOS SANTOS;2;Usuário Final;1;;;;11/09/2007
+10;IMPRESSORA OKI;1;Corporativa;1;;;;11/09/2007
+11;ALLDORA TECNOLOGIA LTDA;1;Corporativa;1;;00004;Clientes Regiao Sul;12/09/2007
+12;ORBIUM;1;Corporativa;1;;00015;fhsuhfihif;12/09/2007
+13;paula tami oshiro;3;Governo;1;;;;16/09/2007
+14;TRIBUNAL DE JUSTIÇA DO MS;3;Governo;1;;00018;Super bonus;18/09/2007
+15;Érico Tooru Tanji ;1;Corporativa;1;;00018;Super bonus;18/09/2007
+16;ABBOTT LABORATORIOS DO BRASIL LTDA      ;2;Usuário Final;1;;;;18/09/2007
+17;Horiba ABX Diagnostics;1;Corporativa;1;;00018;Super bonus;18/09/2007
+18;ACCEPT COM.E SERVICO DE TECNOLOGIA LTDA ;1;Corporativa;1;;;;18/09/2007
+19;JARDIN DE LOS OLIVOS RESTAURANTE LTDA   ;2;Usuário Final;1;;;;18/09/2007
+20;joa;1;Corporativa;1;;;;19/09/2007
+21;TESTE MIRACULA;1;Corporativa;1;;;;21/09/2007
+22;TESTE MIRACULA 2;1;Corporativa;1;;;;21/09/2007
+23;TESTE MIRACULA 3;1;Corporativa;1;;;;21/09/2007
+24;TESTE MIRACULA 3;1;Corporativa;1;;00018;Super bonus;21/09/2007
+25;Premier TI;1;Corporativa;1;;00018;Super bonus;24/09/2007
+26;Companhia Metropolityano de São PAulo;3;Governo;1;;00018;Super bonus;24/09/2007
+27;Èrico Tooru Tanji;2;Usuário Final;1;;;;24/09/2007
+28;Klima Campinas;1;Corporativa;1;;;;25/09/2007
+29;ASK INFORMATICA LTDA;1;Corporativa;1;;00018;Super bonus;25/09/2007

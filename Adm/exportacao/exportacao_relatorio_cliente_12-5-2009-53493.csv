@@ -1,0 +1,12 @@
+Data Solicitação;Data Aprovação;Data Entrega Ponto Coleta;Data Recebimento;Número Solicitação;Cod. Cliente;Razão Social;UF Cliente;Qtd. Cartuchos;Cód. Categoria;Desc. Categoria;Ponto de coleta;Status
+01/09/2008;;;;E08090000167;116;Case Sensitive Serviços de Tradução;SP;9;2;Usuário Final-cadastro com CPF (à partir de 15 cart.);TECNOCOOP - FILIAL DE CAMPINAS;Rejeitada
+01/10/2008;;;;E08100000164;128;Sandria Projetos e Construções Ltda;SP;4;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Rejeitada
+04/12/2008;05/12/2008;18/12/2008;;E08120001883;187;AGEVILLE-A.Giannetti, Empreendimentos e Imóveis Ltda;MG;2;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Material entregue e ainda não devolvido
+11/12/2008;12/11/2008;;;E08120003827;191;zol Design Ltda;SP;10;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Cancelada
+05/01/2009;01/08/2009;;;E09010000350;196;MQS Consultoria;SP;3;1;Usuário Final-cadastro com CPF (entre 1 à 14 cart.);TECNOCOOP - FILIAL DE SÃO PAULO;Cancelada
+19/01/2009;;;;E09010001755;202;Imagem Integrada e Comunicação;SP;14;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Rejeitada
+18/02/2009;18/02/2009;12/05/2009;;E09020003149;214;ELLU Consultoria e Eventos Ltda;SP;4;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Material entregue e ainda não devolvido
+13/03/2009;16/03/2009;;;E09030002021;221;Pedro Carlos Stelian;SP;13;1;Usuário Final-cadastro com CPF (entre 1 à 14 cart.);TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+03/04/2009;03/04/2009;;;E09040001338;230;COMIN Automação Industrial LTDA;SP;3;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+17/04/2009;;;;E09040004515;233;prodem produtos odontologicos ltda ;SP;28;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Rejeitada
+24/04/2009;;;;E09040005082;235;Casa Omnigráfica de Máquinas ltda;SP;10;4;Revendedor;TECNOCOOP - FILIAL DE CAMPINAS;Rejeitada

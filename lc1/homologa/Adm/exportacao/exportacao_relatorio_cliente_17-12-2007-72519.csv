@@ -1,0 +1,79 @@
+Cod. Cliente;Razão Social;Cod. Categoria;Desc. Categoria;Cod. Grupo;Desc. Grupo;Cod. Bônus;Desc. Bônus;Data Cadastro;Status
+1;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00018;Super bonus;05/09/2007;Aprovado
+2;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007;Aprovado
+3;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007;Aprovado
+4;BANCO ABN AMRO REAL S/A                 ;1;Corporativa;3;Novo;00002;Contribuição;05/09/2007;Aprovado
+5;Luciano Siqueira;2;Usuário Final;1;;;;05/09/2007;Aprovado
+6;MIRACULA STORE;1;Corporativa;3;Novo;00013;Cadastro de Bonus para a Miracula Store;10/09/2007;Aprovado
+7;CARMEL COMERCIAL LTDA ;1;Corporativa;3;Novo;00004;Clientes Regiao Sul;10/09/2007;Aprovado
+8;NEXXIA;1;Corporativa;3;Novo;00015;fhsuhfihif;11/09/2007;Aprovado
+9;LEANDRO STOROLI DOS SANTOS;2;Usuário Final;1;;;;11/09/2007;Rejeitado
+10;IMPRESSORA OKI;1;Corporativa;3;Novo;;;11/09/2007;Aprovado
+11;ALLDORA TECNOLOGIA LTDA;1;Corporativa;3;Novo;00004;Clientes Regiao Sul;12/09/2007;Aprovado
+12;ORBIUM;1;Corporativa;3;Novo;00015;fhsuhfihif;12/09/2007;Aprovado
+13;paula tami oshiro;3;Governo;4;Miracula;;;16/09/2007;Rejeitado
+14;TRIBUNAL DE JUSTIÇA DO MS;3;Governo;4;Miracula;00018;Super bonus;18/09/2007;Aprovado
+15;Érico Tooru Tanji ;1;Corporativa;3;Novo;00018;Super bonus;18/09/2007;Aprovado
+16;ABBOTT LABORATORIOS DO BRASIL LTDA      ;2;Usuário Final;1;;;;18/09/2007;Aprovado
+17;Horiba ABX Diagnostics;1;Corporativa;3;Novo;00024;EXPIRADO;18/09/2007;Aprovado
+18;ACCEPT COM.E SERVICO DE TECNOLOGIA LTDA ;1;Corporativa;3;Novo;;;18/09/2007;Aprovado
+19;JARDIN DE LOS OLIVOS RESTAURANTE LTDA   ;2;Usuário Final;1;;;;18/09/2007;Aprovado
+20;joa;1;Corporativa;3;Novo;;;19/09/2007;Aprovado
+21;TESTE MIRACULA;1;Corporativa;3;Novo;;;21/09/2007;Rejeitado
+22;TESTE MIRACULA 2;1;Corporativa;3;Novo;;;21/09/2007;Rejeitado
+23;TESTE MIRACULA 3;1;Corporativa;3;Novo;;;21/09/2007;Rejeitado
+24;TESTE MIRACULA 3;1;Corporativa;3;Novo;00018;Super bonus;21/09/2007;Aprovado
+25;Premier TI;1;Corporativa;3;Novo;00018;Super bonus;24/09/2007;Aprovado
+26;Companhia Metropolityano de São PAulo;3;Governo;4;Miracula;00018;Super bonus;24/09/2007;Aprovado
+27;Èrico Tooru Tanji;2;Usuário Final;1;;;;24/09/2007;Aprovado
+28;Klima Campinas;1;Corporativa;3;Novo;00024;EXPIRADO;25/09/2007;Rejeitado
+29;ASK INFORMATICA LTDA;1;Corporativa;3;Novo;00018;Super bonus;25/09/2007;Aprovado
+30;Maderada;1;Corporativa;3;Novo;;;04/10/2007;Aprovado
+31;Okidata;1;Corporativa;3;Novo;00018;Super bonus;08/10/2007;Aprovado
+32;Érico Tooru Tanji;1;Corporativa;3;Novo;00024;EXPIRADO;08/10/2007;Aprovado
+33;Miracula;2;Usuário Final;1;;;;09/10/2007;Status em branco
+34;Miracula;2;Usuário Final;1;;;;09/10/2007;Status em branco
+35;Miracula;2;Usuário Final;1;;;;09/10/2007;Status em branco
+36;Miracula;2;Usuário Final;1;;;;09/10/2007;Status em branco
+37;Miracula;2;Usuário Final;1;;;;09/10/2007;Status em branco
+38;Mirola;2;Usuário Final;1;;;;09/10/2007;Status em branco
+39;Miracula;2;Usuário Final;1;;;;09/10/2007;Status em branco
+40;Wadt Representações;1;Corporativa;1;;00025;Bonus Wadt;10/10/2007;Aprovado
+41;Teste;3;Governo;1;;;;11/10/2007;Rejeitado
+42;TESTE 1;2;Usuário Final;1;;;;23/10/2007;Aprovado
+43;TESTE 23;1;Corporativa;1;;00004;Clientes Regiao Sul;23/10/2007;Aprovado
+44;alex;2;Usuário Final;1;;;;31/10/2007;Status em branco
+45;Sab Company;1;Corporativa;1;;00024;EXPIRADO;01/11/2007;Aprovado
+46;teste Miracula;2;Usuário Final;1;;;;01/11/2007;Status em branco
+47;Teste OKIDATA;1;Corporativa;1;;;;06/11/2007;Status em branco
+48;teste Miracula;1;Corporativa;1;;;;07/11/2007;Status em branco
+49;alex Silveira;1;Corporativa;1;;;;07/11/2007;Status em branco
+50;mira;1;Corporativa;1;;;;07/11/2007;Status em branco
+51;jajajajaj;2;Usuário Final;1;;;;07/11/2007;Aprovado
+52;teste Miracula;1;Corporativa;1;;;;07/11/2007;Status em branco
+53;Bozolina71218258640;1;Corporativa;1;;;;07/11/2007;Status em branco
+54;miracula;1;Corporativa;1;;;;07/11/2007;Status em branco
+55;teste Miracula;1;Corporativa;1;;;;08/11/2007;Status em branco
+56;alex teste teste;1;Corporativa;1;;;;08/11/2007;Status em branco
+57;miracula;1;Corporativa;1;;;;08/11/2007;Aprovado
+58;OIOIOOIOIOIO;1;Corporativa;3;Novo;00024;EXPIRADO;09/11/2007;Aprovado
+59;AIAIIAIAIAIAIIAIAIAIAIIA;1;Corporativa;3;Novo;00018;Super bonus;09/11/2007;Aprovado
+60;Jadilson Miracula;1;Corporativa;1;;;;09/11/2007;Status em branco
+61;Anzentitai;1;Corporativa;1;;;;14/11/2007;Aprovado
+62;Chageandaska;1;Corporativa;1;;00006;teste de bonus;14/11/2007;Aprovado
+63;Perla do Santos;2;Usuário Final;1;;;;28/11/2007;Aprovado
+64;Teste Coleta Ltda.;1;Corporativa;1;;00018;Super bonus;29/11/2007;Aprovado
+65;Koraicho Ltda.;1;Corporativa;1;;;;06/12/2007;Status em branco
+66;SHARPENER LTDA;2;Usuário Final;1;;;;06/12/2007;Aprovado
+67;Jadilson;2;Usuário Final;1;;;;10/12/2007;Aprovado
+68;Leandro;1;Corporativa;1;;;;10/12/2007;Status em branco
+69;Marcela;2;Usuário Final;1;;;;11/12/2007;Status em branco
+70;Testando Sistema Ltda.;1;Corporativa;1;;00018;Super bonus;11/12/2007;Aprovado
+71;sei lá;1;Corporativa;1;;;;11/12/2007;Status em branco
+72;Cliente 21 Ltda;2;Usuário Final;1;;;;11/12/2007;Status em branco
+73;Cliente 22;1;Corporativa;1;;;;11/12/2007;Status em branco
+74;Cliente 23;1;Corporativa;1;;;;11/12/2007;Status em branco
+75;Cliente 25;1;Corporativa;1;;;;11/12/2007;Status em branco
+76;Cliente 27;1;Corporativa;1;;;;11/12/2007;Status em branco
+77;Cliente 28;1;Corporativa;1;;;;11/12/2007;Status em branco
+78;DESTINAÇÃO LTDA;2;Usuário Final;1;;;;14/12/2007;Aprovado

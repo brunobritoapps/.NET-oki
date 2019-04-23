@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* ----------------------------------------------------------------
+Structure= Contents Area
+----------------------------------------------------------------- */
+
+.leftNav {
+	margin: 0 0 20px 0px;
+}
+
+.leftNavTitleLabel {
+	margin: 0 0 10px 0;
+	padding: 10px 0 10px 30px;
+	min-height:40px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #d80000;
+	background-image: url("../img/arrow_left_white.png");
+	background-repeat: no-repeat;
+	background-position: 5% center;
+}
+.leftNavTitleLabel p{
+	margin: 0 0 0 0;
+}
+
+.leftNavTitleLabel a{
+	color:#fff;
+	opacity:1;
+}
+
+.leftNavItem {
+}
+
+.leftNavItem p{
+	padding:0 0 0 10px;
+}
+
+.leftNavItem p:last-child{
+	padding-bottom:10px;
+}
+
+.leftNavItem .sub {
+	padding: 0 0 0 20px;
+}
+
+.leftBanner {
+	max-height:78px;
+	border: solid 1px #e2e2e2;
+	padding:5px;
+	overflow:hidden;
+}
+
+.leftBanner p{
+	line-height:1.2em
+}
+
+.leftBannerTitle{
+	font-weight:bold;
+}
+
+.current{
+	background-image: url("../img/leftnavi_highlight.gif");
+	background-repeat: no-repeat;
+	background-position: 0% center;
+}
+
+.current a{
+color:#d80000;
+font-weight:bold;
+}
+
+/*------------------------------------------
+
+1. margin (margin-top/margin-right/margin-bottom/margin-left)
+2. padding (/padding-right/padding-bottom/padding-left)
+3. border-width (border-top-width/border-right-width/border-bottom-width/border-left-width)
+4. border-color (border-top-color/border-right-color/border-bottom-color/border-left-color)
+5. border-style (border-top-style/border-right-style/border-bottom-style/border-left-style)
+6. border (border-top/border-bottom/border-right/border-left)
+7. display
+8. position
+9. top
+10. right
+11. bottom
+12. left
+13. float
+14. clear
+15. z-index
+16. width (min-width/max-width)
+17. height (min-height/max-height)
+18. line-height
+19. vertical-align
+20. overflow
+21. clip
+22. visibility
+23. list-style (list-style-type/list-style-image/list-style-position)
+24. color
+25. background (background-color/background-image/background-repeat/backgroundattachment/
+background-position)
+26. font (font-family/font-style/font-variant/font-weight/font-size)
+27. text-indent
+28. text-align
+29. text-decoration
+30. letter-spacing
+31. word-spacing
+32. white-space
+-----------------*/

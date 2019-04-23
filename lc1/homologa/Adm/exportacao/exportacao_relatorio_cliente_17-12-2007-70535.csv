@@ -1,0 +1,79 @@
+Cod. Cliente;Razão Social;Cod. Categoria;Desc. Categoria;Cod. Grupo;Desc. Grupo;Cod. Bônus;Desc. Bônus;Data Cadastro
+1;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00018;Super bonus;05/09/2007
+2;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007
+3;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007
+4;BANCO ABN AMRO REAL S/A                 ;1;Corporativa;3;Novo;00002;Contribuição;05/09/2007
+5;Luciano Siqueira;2;Usuário Final;1;;;;05/09/2007
+6;MIRACULA STORE;1;Corporativa;3;Novo;00013;Cadastro de Bonus para a Miracula Store;10/09/2007
+7;CARMEL COMERCIAL LTDA ;1;Corporativa;3;Novo;00004;Clientes Regiao Sul;10/09/2007
+8;NEXXIA;1;Corporativa;3;Novo;00015;fhsuhfihif;11/09/2007
+9;LEANDRO STOROLI DOS SANTOS;2;Usuário Final;1;;;;11/09/2007
+10;IMPRESSORA OKI;1;Corporativa;3;Novo;;;11/09/2007
+11;ALLDORA TECNOLOGIA LTDA;1;Corporativa;3;Novo;00004;Clientes Regiao Sul;12/09/2007
+12;ORBIUM;1;Corporativa;3;Novo;00015;fhsuhfihif;12/09/2007
+13;paula tami oshiro;3;Governo;4;Miracula;;;16/09/2007
+14;TRIBUNAL DE JUSTIÇA DO MS;3;Governo;4;Miracula;00018;Super bonus;18/09/2007
+15;Érico Tooru Tanji ;1;Corporativa;3;Novo;00018;Super bonus;18/09/2007
+16;ABBOTT LABORATORIOS DO BRASIL LTDA      ;2;Usuário Final;1;;;;18/09/2007
+17;Horiba ABX Diagnostics;1;Corporativa;3;Novo;00024;EXPIRADO;18/09/2007
+18;ACCEPT COM.E SERVICO DE TECNOLOGIA LTDA ;1;Corporativa;3;Novo;;;18/09/2007
+19;JARDIN DE LOS OLIVOS RESTAURANTE LTDA   ;2;Usuário Final;1;;;;18/09/2007
+20;joa;1;Corporativa;3;Novo;;;19/09/2007
+21;TESTE MIRACULA;1;Corporativa;3;Novo;;;21/09/2007
+22;TESTE MIRACULA 2;1;Corporativa;3;Novo;;;21/09/2007
+23;TESTE MIRACULA 3;1;Corporativa;3;Novo;;;21/09/2007
+24;TESTE MIRACULA 3;1;Corporativa;3;Novo;00018;Super bonus;21/09/2007
+25;Premier TI;1;Corporativa;3;Novo;00018;Super bonus;24/09/2007
+26;Companhia Metropolityano de São PAulo;3;Governo;4;Miracula;00018;Super bonus;24/09/2007
+27;Èrico Tooru Tanji;2;Usuário Final;1;;;;24/09/2007
+28;Klima Campinas;1;Corporativa;3;Novo;00024;EXPIRADO;25/09/2007
+29;ASK INFORMATICA LTDA;1;Corporativa;3;Novo;00018;Super bonus;25/09/2007
+30;Maderada;1;Corporativa;3;Novo;;;04/10/2007
+31;Okidata;1;Corporativa;3;Novo;00018;Super bonus;08/10/2007
+32;Érico Tooru Tanji;1;Corporativa;3;Novo;00024;EXPIRADO;08/10/2007
+33;Miracula;2;Usuário Final;1;;;;09/10/2007
+34;Miracula;2;Usuário Final;1;;;;09/10/2007
+35;Miracula;2;Usuário Final;1;;;;09/10/2007
+36;Miracula;2;Usuário Final;1;;;;09/10/2007
+37;Miracula;2;Usuário Final;1;;;;09/10/2007
+38;Mirola;2;Usuário Final;1;;;;09/10/2007
+39;Miracula;2;Usuário Final;1;;;;09/10/2007
+40;Wadt Representações;1;Corporativa;1;;00025;Bonus Wadt;10/10/2007
+41;Teste;3;Governo;1;;;;11/10/2007
+42;TESTE 1;2;Usuário Final;1;;;;23/10/2007
+43;TESTE 23;1;Corporativa;1;;00004;Clientes Regiao Sul;23/10/2007
+44;alex;2;Usuário Final;1;;;;31/10/2007
+45;Sab Company;1;Corporativa;1;;00024;EXPIRADO;01/11/2007
+46;teste Miracula;2;Usuário Final;1;;;;01/11/2007
+47;Teste OKIDATA;1;Corporativa;1;;;;06/11/2007
+48;teste Miracula;1;Corporativa;1;;;;07/11/2007
+49;alex Silveira;1;Corporativa;1;;;;07/11/2007
+50;mira;1;Corporativa;1;;;;07/11/2007
+51;jajajajaj;2;Usuário Final;1;;;;07/11/2007
+52;teste Miracula;1;Corporativa;1;;;;07/11/2007
+53;Bozolina71218258640;1;Corporativa;1;;;;07/11/2007
+54;miracula;1;Corporativa;1;;;;07/11/2007
+55;teste Miracula;1;Corporativa;1;;;;08/11/2007
+56;alex teste teste;1;Corporativa;1;;;;08/11/2007
+57;miracula;1;Corporativa;1;;;;08/11/2007
+58;OIOIOOIOIOIO;1;Corporativa;3;Novo;00024;EXPIRADO;09/11/2007
+59;AIAIIAIAIAIAIIAIAIAIAIIA;1;Corporativa;3;Novo;00018;Super bonus;09/11/2007
+60;Jadilson Miracula;1;Corporativa;1;;;;09/11/2007
+61;Anzentitai;1;Corporativa;1;;;;14/11/2007
+62;Chageandaska;1;Corporativa;1;;00006;teste de bonus;14/11/2007
+63;Perla do Santos;2;Usuário Final;1;;;;28/11/2007
+64;Teste Coleta Ltda.;1;Corporativa;1;;00018;Super bonus;29/11/2007
+65;Koraicho Ltda.;1;Corporativa;1;;;;06/12/2007
+66;SHARPENER LTDA;2;Usuário Final;1;;;;06/12/2007
+67;Jadilson;2;Usuário Final;1;;;;10/12/2007
+68;Leandro;1;Corporativa;1;;;;10/12/2007
+69;Marcela;2;Usuário Final;1;;;;11/12/2007
+70;Testando Sistema Ltda.;1;Corporativa;1;;00018;Super bonus;11/12/2007
+71;sei lá;1;Corporativa;1;;;;11/12/2007
+72;Cliente 21 Ltda;2;Usuário Final;1;;;;11/12/2007
+73;Cliente 22;1;Corporativa;1;;;;11/12/2007
+74;Cliente 23;1;Corporativa;1;;;;11/12/2007
+75;Cliente 25;1;Corporativa;1;;;;11/12/2007
+76;Cliente 27;1;Corporativa;1;;;;11/12/2007
+77;Cliente 28;1;Corporativa;1;;;;11/12/2007
+78;DESTINAÇÃO LTDA;2;Usuário Final;1;;;;14/12/2007

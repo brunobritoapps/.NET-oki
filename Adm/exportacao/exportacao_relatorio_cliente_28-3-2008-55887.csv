@@ -1,0 +1,4 @@
+Cod. Cliente;Razão Social;Cod. Categoria;Desc. Categoria;Cod. Grupo;Desc. Grupo;Cod. Bônus;Desc. Bônus;Data Cadastro;Status
+100;ACC BRASIL IND.E COM.DE COMPUTADORES LTDA-ACCEPT ;1;Corporativa;1;;00001;Pontuação Corporativo;27/03/2008;Aprovado
+101;Voluntarios da Patria;2;Usuário Final (consumo entre 1 a 15 cart./mês);1;;;;28/03/2008;Aprovado
+102;PREMIER TECNOLOGIA DA INFORMACAO LTDA  ;5;Revendedor;5;Premier;00001;Pontuação Corporativo;28/03/2008;Aprovado

@@ -1,0 +1,75 @@
+Data Solicitação;Data Aprovação;Data Recebimento;Data Entrega Ponto Coleta;Número Solicitação;Cod. Cliente;Razão Social;UF Cliente;Qtd. Cartuchos;Cód. Categoria;Desc. Categoria;Transportadora;Ponto de coleta;Status
+05/09/2007;;;;E07090000908;5;Luciano Siqueira;;5;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Rejeitada
+06/09/2007;06/09/2007;;06/09/2007;E07090001033;5;Luciano Siqueira;;100;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+10/09/2007;10/09/2007;10/09/2007;10/09/2007;E07090007074;5;Luciano Siqueira;;300;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Encerrada
+11/09/2007;;;;E07090007406;9;LEANDRO STOROLI DOS SANTOS;;100;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Rejeitada
+12/09/2007;12/09/2007;;14/09/2007;E07090008127;12;ORBIUM;;100;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+12/09/2007;12/09/2007;;12/09/2007;E07090008208;12;ORBIUM;;500;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+12/09/2007;12/09/2007;;12/09/2007;E07090008470;12;ORBIUM;;400;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+12/09/2007;12/09/2007;13/09/2007;12/09/2007;E07090008631;12;ORBIUM;;200;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+12/09/2007;12/09/2007;13/09/2007;12/09/2007;E07090008712;12;ORBIUM;;500;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+12/09/2007;12/09/2007;13/09/2007;12/09/2007;E07090008984;12;ORBIUM;;500;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+12/09/2007;12/09/2007;13/09/2007;12/09/2007;E07090009107;12;ORBIUM;;500;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+12/09/2007;12/09/2007;13/09/2007;12/09/2007;E07090009360;12;ORBIUM;;500;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+12/09/2007;12/09/2007;13/09/2007;12/09/2007;E07090010024;12;ORBIUM;;400;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+12/09/2007;12/09/2007;17/09/2007;12/09/2007;E07090011691;12;ORBIUM;;200;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+12/09/2007;12/09/2007;13/09/2007;12/09/2007;E07090011772;12;ORBIUM;;400;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+12/09/2007;18/09/2007;21/09/2007;21/09/2007;E07090012078;12;ORBIUM;;400;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090014526;12;ORBIUM;;400;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090014607;12;ORBIUM;;400;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090014798;12;ORBIUM;;200;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090014879;12;ORBIUM;;100;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090015336;12;ORBIUM;;400;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090015417;12;ORBIUM;;300;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090015506;12;ORBIUM;;200;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090019242;12;ORBIUM;;400;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+17/09/2007;17/09/2007;21/09/2007;17/09/2007;E07090019323;12;ORBIUM;;300;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Encerrada
+18/09/2007;18/09/2007;21/09/2007;18/09/2007;E07090020925;16;ABBOTT LABORATORIOS DO BRASIL LTDA      ;;320;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Encerrada
+18/09/2007;18/09/2007;;;E07090021140;18;ACCEPT COM.E SERVICO DE TECNOLOGIA LTDA ;;1;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Aprovada
+18/09/2007;18/09/2007;;;E07090021220;19;JARDIN DE LOS OLIVOS RESTAURANTE LTDA   ;;1000;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Aprovada
+24/09/2007;08/10/2007;;08/10/2007;E07090024165;27;Èrico Tooru Tanji;;140;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+08/10/2007;08/10/2007;;08/10/2007;E07100000735;32;Érico Tooru Tanji;;1;1;Corporativa;DELTA RECORDS COM SERV E ARMAZ.LTDA     ;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+09/10/2007;;;;E07100001898;33;Miracula;;40;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+09/10/2007;;;;E07100001979;34;Miracula;;40;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+09/10/2007;;;;E07100002002;35;Miracula;;40;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+09/10/2007;;;;E07100002193;36;Miracula;;40;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+09/10/2007;;;;E07100002274;37;Miracula;;40;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+09/10/2007;;;;E07100002355;38;Mirola;;40;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+09/10/2007;;;;E07100002436;39;Miracula;;40;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/10/2007;10/10/2007;;10/10/2007;E07100003408;40;Wadt Representações;;10;1;Corporativa;DELTA RECORDS COM SERV E ARMAZ.LTDA     ;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+23/10/2007;23/10/2007;;23/10/2007;E07100005028;42;TESTE 1;;10;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+23/10/2007;23/10/2007;;23/10/2007;E07100005290;42;TESTE 1;;10;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+31/10/2007;;;;E07100005532;44;alex;;50;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+01/11/2007;;;;E07110000347;46;teste Miracula;;10;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+07/11/2007;;;;E07110000690;48;teste Miracula;;10;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+07/11/2007;;;;E07110000851;50;mira;;10;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+07/11/2007;;;;E07110000932;51;jajajajaj;;10;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+07/11/2007;;;;E07110001076;52;teste Miracula;;10;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+07/11/2007;;;;E07110001157;53;Bozolina71218258640;;10;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+08/11/2007;;;;E07110001580;56;alex teste teste;;20;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+09/11/2007;;;;E07110002048;60;Jadilson Miracula;;20;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+28/11/2007;;;;E07110002471;63;Perla do Santos;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+06/12/2007;06/12/2007;;;E07120000706;66;SHARPENER LTDA;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Aprovada
+10/12/2007;;;;E07120001001;67;Jadilson;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/12/2007;;;;E07120001192;67;Jadilson;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/12/2007;;;;E07120001435;66;SHARPENER LTDA;;5;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/12/2007;;;;E07120001516;66;SHARPENER LTDA;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/12/2007;;;;E07120001605;67;Jadilson;;45;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/12/2007;;;;E07120001788;67;Jadilson;;3;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/12/2007;;;;E07120001869;67;Jadilson;;2;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/12/2007;;;;E07120001940;67;Jadilson;;9;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/12/2007;;;;E07120002083;67;Jadilson;;8;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+10/12/2007;;;;E07120002164;67;Jadilson;;7;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+11/12/2007;;;;E07120002245;67;Jadilson;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+11/12/2007;;;;E07120002326;67;Jadilson;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+11/12/2007;;;;E07120002407;67;Jadilson;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+11/12/2007;;;;E07120002598;69;Marcela;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+11/12/2007;;;;E07120003055;72;Cliente 21 Ltda;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+11/12/2007;;;;E07120003560;77;Cliente 28;;1;1;Corporativa;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+12/12/2007;;;;E07120004531;67;Jadilson;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+12/12/2007;;;;E07120004612;67;Jadilson;;63;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+12/12/2007;;;;E07120004701;67;Jadilson;;52;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+12/12/2007;;;;E07120005180;67;Jadilson;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+13/12/2007;;;;E07120006232;67;Jadilson;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+14/12/2007;14/12/2007;14/12/2007;14/12/2007;E07120006313;78;DESTINAÇÃO LTDA;;1;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Encerrada
+14/12/2007;14/12/2007;14/12/2007;14/12/2007;E07120006402;78;DESTINAÇÃO LTDA;;99;2;Usuário Final;;CONTEC INFORMATICA LTDA                 ;Encerrada

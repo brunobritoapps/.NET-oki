@@ -1,0 +1,424 @@
+/* CSS Document */
+/***************************************************************************************************************************/
+/*
+'|--------------------------------------------------------------------
+'| Arquivo: _config.asp																									 
+'| Autor: Leandro dos Santos (leandro.storoli@gmail.com)						 
+'| Data Criação: 13/04/2007																					 
+'| Data Modificação : 15/04/2007																		 
+'| Descrição: Arquivo de Administra as Configurações e contém _
+'| todos os includes de Configuração 
+'|--------------------------------------------------------------------
+*/
+body {
+	/*margin:auto; */
+	text-align:center;
+}
+
+.dia {font-family: century gothic; font-size: 10px; color: #FFFFFF}
+.data {font-family: century gothic; font-size: 10px; text-decoration:none; color:#191970}
+.mes {font-family: century gothic; font-size: 10px;}
+.Cabecalho_Calendario {font-family: century gothic; font-size: 10px; color: #000000; text-decoration:none; font-weight:bold}
+.linkcalendario{font-family: century gothic; font-size: 10px; color: #FFFFFF; text-decoration:none; font-weight:bold}
+
+#conteudo {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#fontred{
+	color:#FF0000;
+}
+
+.rotulos {
+    font-family:century gothic; 
+    font-size:10px; 
+    color:black;
+    font-weight:normal;
+}
+
+.fonteMenu {
+	font-family:century gothic;
+	font-size:10px;
+	font-weight:bold;
+	color: 5D5D5D;
+	text-decoration: none;
+}
+
+.fontepadraoBold {
+	font-family:century gothic;
+	font-size:10px;
+	font-weight:bold;
+	color: FFFFFF;
+	text-decoration: none;
+}
+
+#container {
+	margin:auto;
+	min-width:650px;
+	width:700px;
+	height:100%;
+}
+
+#header {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+.checkbox {}
+
+.btnform {}
+
+.btnformMaior {}
+
+.select {
+	border:1px solid #333333;
+	font-family:century gothic;
+	font-size:11px;
+    width: 200px;
+    height: 24px;
+}
+
+#tablecadtransportadoras {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableTitle {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tablelisttransportadoras {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tablelisttransportadoras th {
+	color:#FFFFFF;
+	background-color:#DE8989;
+}
+
+#tableCadCliente {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableCadClienteEndereco {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableCadClienteEnderecoColeta {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableCadClienteEnderecoContato {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableCadClienteContato {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableCadClienteCategoria {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableCadClientePontoColeta {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableListPontoColeta {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableListPontoColeta td {
+	text-align:left;
+	border-bottom:1px dotted #FF0000;
+}
+
+#tableListPontoColeta th {
+	background-color:#ED4949;
+	color:#FFFFFF;
+}
+
+#tableLoginCliente {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableRelSolPendente {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableRelSolPendente th {
+	color:#FFFFFF;
+	background-color:#DE8989;
+}
+
+#tableRelSolEfetuadas {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableRelSolEfetuadas th {
+	color:#FFFFFF;
+	background-color:#DE8989;
+}
+
+#tableRelSolEfetuadas td {
+	background-color:#F1F1F1;
+}
+
+#tableRelContatos {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableContatosAdm {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableRelContatosAdm {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableRelContatos th {
+	color:#FFFFFF;
+	background-color:#DE8989;
+}
+
+#tableRelContatosAdm th {
+	color:#FFFFFF;
+	background-color:#DE8989;
+}
+
+#tableAddSolicitacao {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableEditClienteCadastro {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tablRelSolPontoColetaEdita {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tablRelSolPontoColetaEdita th {
+	color:#FFFFFF;
+	background-color:#DE8989;
+}
+
+#tablRelSolPontoColetaEdita td {
+	background-color:#F1F1F1;
+}
+
+#tablRelSolPontoColetaEdita {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableRelCategories {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableRelCategories th {
+	color:#FFFFFF;
+	background-color:#DE8989;
+}
+
+#tableEditSolicitacaoColetaAdm {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableGetClientesCadastro {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#tableGetClientesCadastro th {
+	color:#FFFFFF;
+	background-color:#DE8989;
+}
+
+#editTableCadClienteAlpha {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+#explaintitle {
+	font-weight:bold;
+	color:#FFFFFF;
+	font-family:century gothic;
+	font-size:11px;
+	background-color:#FF6A6A;
+}
+
+#explaintitlelform {
+	font-weight:bold;
+	color:#FF0000;
+	font-family:century gothic;
+	font-size:10px;
+	text-decoration:underline;
+}
+
+.imgexpandeinfo {
+	cursor:pointer;
+}
+
+.linkOperacional {
+	font-family:century gothic;
+	font-size:10px;
+	color:#FF0000;
+	font-weight:bold;	
+	text-decoration:none;
+}
+
+.linkOperacional:hover {
+	color:#FF6A6A;
+}
+
+.classColorRelPar {
+	background-color:#F1F1F1;
+}
+
+.classColorRelParHover {
+	background-color:#CCCC00;
+}
+
+.classColorRelImpar {
+	background-color:#F8DDDD;
+}
+
+#findcontato {
+	font-family:century gothic;
+	font-size:10px;
+	font-weight:bold;
+	color:#FF0000;
+}
+
+#editClienteCadastro {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#boxEditCliente {
+	background-color:#FFFFFF;
+	width:500px;
+	height:600px;
+	position:absolute;
+	top:180px;
+	left:270px;
+}
+
+#msgret {
+	color:#FF0000;
+	font-weight:bold;
+}
+
+#tableprodcad {
+	font-family:century gothic;
+	font-size:10px;
+}
+
+.textoHome
+{
+	font-family:century gothic;
+	font-size:11px;
+	font-weight:normal;
+	color:#5D5D5D;
+    text-decoration:none;
+}
+    .textoHome a
+    {
+        text-decoration:none;
+	    font-family:century gothic;
+	    font-size:11px;
+	    font-weight:normal;
+	    color:#5D5D5D;
+    }
+
+    .textoHome:hover
+    {
+	    font-family:century gothic;
+	    font-size:11px;
+	    font-weight:normal;
+	    color:#5D5D5D;
+    }
+	
+
+.textocarta
+{
+	font-family:century gothic;
+	font-size:11px;
+	font-weight:normal;
+	color:#5D5D5D;
+    text-decoration:none;
+}	
+
+.textoHomeAzul
+{
+	font-family:century gothic;
+	font-size:10px;
+	font-weight:normal;
+	color:#6B8A9C;
+}
+
+.BotaoBuscar
+{	
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+	text-align:center;
+	border: 0px solid #000000;
+	background-image: url('../img/buscar.png');
+	cursor: hand;
+}
+
+.rotulos {
+    font-family:century gothic; 
+    font-size:10px; 
+    color:black;
+    font-weight:normal;
+}
+
+.textreadonly:focus{
+	background-color:#faffbd;
+}
+
+.textreadonly[readonly]{
+	background-color:#eeeeee;
+}
+
+.menu-atalho{
+	text-align: center;
+	font-family:century gothic;
+	font-weight:100;
+	font-size:11px;
+}
+.menu-atalho:hover{
+	text-align: center;
+	font-family:century gothic;
+	font-weight:100;
+	font-size:11px;
+	background:#c1c1c1;
+}

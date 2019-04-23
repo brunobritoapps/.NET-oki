@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/*Smart phone is set for iphone2g 320px to iphone 6+ 736px */
+/* ----------------------------------------------------------------
+Structure
+----------------------------------------------------------------- */
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	color: #212121;
+	font-family: Century Gothic, CenturyGothic, AppleGothic, Segoe UI,
+		Futura, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+/* ----------------------------------------------------------------
+Heading Module
+----------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0px;
+}
+
+h1 {
+	margin: 0 0 30px 0;
+	line-height: 1.175;
+	font-size: 2.857em; /* 40px */
+}
+@media only screen and (min-width : 320px) and (max-width : 736px) {
+	h1 {
+	    margin: 15px 0 15px 0;
+		font-size:2.143em;
+	}
+}
+
+h2 {
+	margin: 0 0 15px 0;
+	line-height: 1.25;
+	font-size: 1.429em; /* 20px */;
+	font-weight:bold;
+}
+@media only screen and (min-width : 320px) and (max-width : 736px) {
+	h2 {
+	    margin: 0 0 10px 0;
+	}
+}
+
+
+h3 {
+	margin: 0 0 10px 0;
+	line-height: 1.35;
+	font-weight: bold;
+	font-size: 1.286em; /* 18px */;
+}
+
+p {
+	margin: 0 0 5px 0;
+	line-height: 1.5;
+	font-size: 1em; /* 14px */;
+}
+
+a {
+	color: #002299;
+}
+
+a:hover,
+a:active {
+	color: #ff0000;
+	text-decoration: underline;
+	opacity: 0.75;
+}
+
+a:visited{
+	color:#7a1f9f;
+	text-decoration:none;
+}
+
+hr {
+	margin-top:10px;
+	margin-bottom:10px;
+	border-top: 1px solid #e2e2e2;
+}

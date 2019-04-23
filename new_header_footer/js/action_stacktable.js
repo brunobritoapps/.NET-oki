@@ -1,0 +1,3 @@
+$(function(){
+	$('.simple-table').stacktable();
+});

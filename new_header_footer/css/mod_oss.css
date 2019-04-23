@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+
+
+/* Over writes jquery.bxslider.css */
+.bx-wrapper img {
+	max-width: 100%;
+	display: inline-block;/*change from display block*/
+}
+
+.bx-wrapper .bx-viewport {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border:  none;
+	left: auto;
+	background: none;
+	left: -5px;
+text-align:center;
+
+	/*fix other elements on the page moving (on Chrome)*/
+	-webkit-transform: translatez(0);
+	-moz-transform: translatez(0);
+    	-ms-transform: translatez(0);
+    	-o-transform: translatez(0);
+    	transform: translatez(0);
+}
+
+.bx-wrapper .bx-loading {
+	min-height: 50px;
+	background: url(../products/img/bx_loader.gif) center center no-repeat #fff;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(../products/img/controls.png) no-repeat 0 -32px;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(../products/img/controls.png) no-repeat -43px -32px;
+}
+
+.bx-wrapper .bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-wrapper .bx-next:hover {
+	background-position: -43px 0;
+}
+
+.bx-wrapper .bx-pager {
+	bottom: -100px;
+	text-align:center;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+	.bx-wrapper .bx-pager {
+		bottom: -110px;
+		text-align: left;
+	}
+}
+
+
+.bx-wrapper .bx-pager a {
+	border: solid #fff 1px;
+	display: block;
+	margin: 0 3px;
+	padding: 0;
+}
+
+.bx-wrapper .bx-pager a:hover,.bx-wrapper .bx-pager a.active {
+	border: solid #ff0000 1px;
+}
+
+.bx-wrapper {
+	margin-bottom: 120px;
+}
+
+
+
+/* Over writes stacktable.css */
+
+.st-head-row {
+	padding-top: 1em;
+	border-bottom: 1px solid;
+}
+
+.st-head-row.st-head-row-main {
+	font-size: 1.5em;
+	padding-top: 0;
+	border: none;
+}
+
+
+.st-key {
+ width: auto;/* change from 49% */
+ text-align: left;/* change from rigt */
+ padding-right: 1%; 
+}
+
+.st-val {
+ width: auto;/* change from 49% */
+ padding-left: 1%; 
+}
+
+/* change from 767px */
+@media (max-width: 800px) {
+  .stacktable.large-only { display: none; }
+  .stacktable.small-only { display: table; }
+}
+
+@media print {
+	a[href]:after {
+		content: none;
+	}
+
+	footer {
+		display: none;
+	}
+
+	.socialWrapper {
+		display: none!important;
+	}
+}

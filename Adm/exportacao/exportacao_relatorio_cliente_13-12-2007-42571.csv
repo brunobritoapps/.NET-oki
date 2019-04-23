@@ -1,0 +1,8 @@
+Cod. Cliente;Razão Social;Cod. Categoria;Desc. Categoria;Cod. Grupo;Desc. Grupo;Cod. Bônus;Desc. Bônus;Data Cadastro
+1;BANCO ITAU S. A.                        ;1;Corporativa;1;;00018;Super bonus;05/09/2007
+2;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007
+3;BANCO ITAU S. A.                        ;1;Corporativa;2;Banco Itau;00001;Banco Itau;05/09/2007
+4;BANCO ABN AMRO REAL S/A                 ;1;Corporativa;3;Novo;00002;Contribuição;05/09/2007
+5;Luciano Siqueira;2;Usuário Final;1;;;;05/09/2007
+6;MIRACULA STORE;1;Corporativa;3;Novo;00013;Cadastro de Bonus para a Miracula Store;10/09/2007
+7;CARMEL COMERCIAL LTDA ;1;Corporativa;3;Novo;00004;Clientes Regiao Sul;10/09/2007

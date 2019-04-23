@@ -1,0 +1,10 @@
+Data Solicitação;Data Aprovação;Data Entrega Ponto Coleta;Data Recebimento;Número Solicitação;Cod. Cliente;Razão Social;UF Cliente;Qtd. Cartuchos;Cód. Categoria;Desc. Categoria;Ponto de coleta;Status
+06/09/2007;06/09/2007;06/09/2007;;E07090001033;5;Luciano Siqueira;;100;2;Usuário Final;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+12/09/2007;12/09/2007;14/09/2007;;E07090008127;12;ORBIUM;;100;1;Corporativa;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+12/09/2007;12/09/2007;12/09/2007;;E07090008208;12;ORBIUM;;500;1;Corporativa;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+12/09/2007;12/09/2007;12/09/2007;;E07090008470;12;ORBIUM;;400;1;Corporativa;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+24/09/2007;08/10/2007;08/10/2007;;E07090024165;27;Èrico Tooru Tanji;;140;2;Usuário Final;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+08/10/2007;08/10/2007;08/10/2007;;E07100000735;32;Érico Tooru Tanji;;1;1;Corporativa;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+10/10/2007;10/10/2007;10/10/2007;;E07100003408;40;Wadt Representações;;10;1;Corporativa;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+23/10/2007;23/10/2007;23/10/2007;;E07100005028;42;TESTE 1;;10;2;Usuário Final;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+23/10/2007;23/10/2007;23/10/2007;;E07100005290;42;TESTE 1;;10;2;Usuário Final;CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido

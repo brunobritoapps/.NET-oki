@@ -1,0 +1,148 @@
+Data Solicitação;Data Aprovação;Data Entrega Ponto Coleta;Data Recebimento;Número Solicitação;Cod. Cliente;Razão Social;UF Cliente;Qtd. Cartuchos;Cód. Categoria;Desc. Categoria;Ponto de coleta;Status
+01/09/2008;;;;E08090000167;116;Case Sensitive Serviços de Tradução;SP;9;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE CAMPINAS;Rejeitada
+01/10/2008;;;;E08100000164;128;Sandria Projetos e Construções Ltda;SP;4;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Rejeitada
+04/12/2008;05/12/2008;18/12/2008;;E08120001883;187;AGEVILLE-A.Giannetti, Empreendimentos e Imóveis Ltda;MG;2;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Material entregue e ainda não devolvido
+11/12/2008;12/11/2008;;;E08120003827;191;zol Design Ltda;SP;10;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Cancelada
+05/01/2009;01/08/2009;;;E09010000350;196;MQS Consultoria;SP;3;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE SÃO PAULO;Cancelada
+19/01/2009;;;;E09010001755;202;Imagem Integrada e Comunicação;SP;14;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Rejeitada
+18/02/2009;18/02/2009;12/05/2009;19/08/2009;E09020003149;214;ELLU Consultoria e Eventos Ltda;SP;4;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Encerrada
+13/03/2009;16/03/2009;;;E09030002021;221;Pedro Carlos Stelian;SP;13;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+03/04/2009;03/04/2009;;;E09040001338;230;COMIN Automação Industrial LTDA;SP;3;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+17/04/2009;;;;E09040004515;233;prodem produtos odontologicos ltda ;SP;28;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Rejeitada
+24/04/2009;;;;E09040005082;235;Casa Omnigráfica de Máquinas ltda;SP;10;4;Revendedor;TECNOCOOP - FILIAL DE CAMPINAS;Rejeitada
+01/06/2009;04/06/2009;09/06/2009;19/08/2009;E09060000175;245;BEELNE VIAGENS E TURISMO LTDA;SP;2;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Encerrada
+02/06/2009;04/06/2009;24/09/2009;;E09060000337;247;MLM Eventos Ltda;PR;8;7;Empresas / Estados PR; SC e RS;TECNOCOOP - FILIAL DE CURITIBA;Material entregue e ainda não devolvido
+14/10/2009;15/10/2009;;;E09100002394;280;ISCON TECNOLOGIA E INDUSTRIA - SOLUÇÕES EM CABEAMENTO DE FIBRA ÓPTICA LTDA;SP;1;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Cancelada
+20/10/2009;20/10/2009;;;E09100003609;283;Fatex do Brasil Ltda ;SP;3;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Aprovada
+09/11/2009;09/11/2009;;;E09110000700;288;MT Medeiros Projetos e Serviços Ltda;RJ;10;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Aprovada
+17/11/2009;17/11/2009;;;E09110002168;291;Associação Instituto Missionário;SP;11;3;Órgãos Públicos e Empresas Estatais;TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+12/01/2010;12/01/2010;;;E10010001937;300;INSTALL ENGENHARIA LTDA;SP;1;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+14/01/2010;18/01/2010;;;E10010002666;301;DENIA LOSANGELA RAMOS;SP;8;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE SÃO PAULO;Cancelada
+09/02/2010;11/02/2010;;;E10020001468;306;Plotexpress-Serviços gráficos ltda;PR;1;7;Empresas / Estados PR; SC e RS;TECNOCOOP - FILIAL DE CURITIBA;Aprovada
+05/03/2010;08/03/2010;;;E10030001401;313;Karina Santos;SP;1;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+29/03/2010;29/03/2010;;;E10030005490;315;DOORS COMUNICAÇÃO S/S LTDA;SP;3;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Cancelada
+06/04/2010;06/04/2010;;;E10040000971;318;AGROVIDA LTDA;MG;3;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Aprovada
+10/05/2010;13/05/2010;;;E10050001806;326;LEMA ENGENHARIA CIVIL LTDA;SP;1;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE CAMPINAS;Aprovada
+10/05/2010;;;;E10050001989;327;Rossi Residencial S.A;RS;11;7;Empresas / Estados PR; SC e RS;Lunes 3 Comércio de Maquinas e Suprimentos Gráficos Ltda;Rejeitada
+12/05/2010;13/05/2010;;;E10050002284;329;Seek Ind. Com. Serv. Equip. Ind. Ltda;PR;8;7;Empresas / Estados PR; SC e RS;TECNOCOOP - FILIAL DE CURITIBA;Cancelada
+07/06/2010;08/06/2010;;;E10060000519;332;Advocacia Elias Farah Advogados Associados;SP;4;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+01/07/2010;05/07/2010;;;E10070000392;339;Asociação de Coluna;PR;11;7;Empresas / Estados PR; SC e RS;TECNOCOOP - FILIAL DE CURITIBA;Aprovada
+27/07/2010;02/08/2010;;;E10070005351;343;Nosso Studio Gráfico LTDA;SP;4;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+14/10/2010;;;;E10100002142;355;Rossi Residencial;RJ;12;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Rejeitada
+14/01/2011;17/01/2011;;;E11010002095;375;GALVÃO ENGENHARIA S/A;SP;4;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Aprovada
+21/01/2011;31/01/2011;;;E11010003300;378;CAROLLINE SCOFIELD AMARAL;MG;1;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE BELO HORIZONTE;Aprovada
+25/02/2011;28/02/2011;;;E11020006107;389;R2Mix e Marketing Ltda;SP;9;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+09/05/2011;09/05/2011;;;E11050002622;409;SÃO QUIRINO EMPREENDIENTO IMOB LTDA;SP;14;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE CAMPINAS;Aprovada
+03/06/2011;06/06/2011;;;E11060001343;420;Microware Tecnologia de Informação Ltda;RJ;13;4;Revendedor;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Aprovada
+22/06/2011;24/06/2011;;;E11060006655;426;Man Cooling ar condicionado Ltda;SP;1;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Aprovada
+29/06/2011;30/06/2011;;;E11060007627;427;Acaf Consultoria Ltda;RJ;15;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Aprovada
+06/07/2011;06/07/2011;;;E11070001206;430;Alexandre Henrique Costa Figueiredo;RJ;5;1;Consumidor Final (PF);TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Aprovada
+21/07/2011;21/07/2011;;;E11070005538;434;Instituto de Oftalmologia de Curitiba;PR;13;7;Empresas / Estados PR; SC e RS;TECNOCOOP - FILIAL DE CURITIBA;Aprovada
+21/07/2011;;;;E11070005880;436;EDIVALDO PEREIRA DOS SANTOS;SP;50;2;Usuário Final-cadastro com CPF (à partir de 15 cart.);MULTISERVICE INFORMATICA LTDA           ;Rejeitada
+28/07/2011;28/07/2011;;;E11070007158;438;jeferson almeida lima;SP;10;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Aprovada
+11/08/2011;18/08/2011;;;E11080003368;443;Perto S.A;RS;5;7;Empresas / Estados PR; SC e RS;Lunes 3 Comércio de Maquinas e Suprimentos Gráficos Ltda;Aprovada
+21/08/2011;22/08/2011;;;E11080005905;446;Flavia Rosa;SP;1;1;Consumidor Final (PF);DISTRIFILM SOLUCOES DE IMPRESSAO;Aprovada
+29/08/2011;;;;E11080008831;451;Arycom Comunicação Via Satélite;SP;3;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Rejeitada
+20/10/2011;;;;E11100005000;472;CORVUS MANUTENCAO EM INFORMATICA LTDA;SP;10;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Rejeitada
+03/11/2011;;;;E11110000663;474;ROSSI RESIDENCIAL S/A;PR;5;7;Empresas / Estados PR; SC e RS;TECNOCOOP - FILIAL DE CURITIBA;Rejeitada
+11/11/2011;11/11/2011;;;E11110003417;477;ALKA TECNOLOGIA EM DIAGNOSTICOS COM IMP EXP DE PRODUTOS LTDA;SP;2;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+11/11/2011;16/11/2011;;;E11110003506;478;New Marketing Comunicação Ltda;SP;3;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE SÃO PAULO;Aprovada
+07/12/2011;20/12/2011;;;E11120001409;486;IC - EQUIPAMENTOS E CONSULTORIA EM INFORMÁTICA LTDA;SP;1;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Aprovada
+30/12/2011;04/01/2012;;;E11120006206;490;Hugo Valesini Gegembauer;RJ;1;1;Consumidor Final (PF);TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Aprovada
+31/01/2012;07/02/2012;;;E12010008717;501;Trench,,Rossi e Watanabe Advogados;DF;2;9;Empresas / Estados do Centro-Oeste;TECNOCOOP - FILIAL DE BRASÍLIA;Aprovada
+02/02/2012;07/02/2012;;;E12020000263;502;RSIMON REPRESENTAÇOES LTDA;SP;2;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Aprovada
+14/02/2012;14/02/2012;;;E12020003521;507;Escola de Linguas For Teens SS Ltda;SP;5;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Aprovada
+01/03/2012;01/03/2012;;;E12030000380;514;Pneus Sarapuí Comercio e Reciclagem de Borracha Ltda;SP;4;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Aprovada
+12/03/2012;13/03/2012;;;E12030003303;516;Conselho Regional de Técnicos em Radiologia;RJ;1;3;Órgãos Públicos e Empresas Estatais;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Aprovada
+21/03/2012;17/04/2012;;;E12030006230;520;Biotest Farmaceutica Ltda;SP;1;5;Empresas / Estado de São Paulo;TECNOCOOP - FILIAL DE CAMPINAS;Aprovada
+03/04/2012;04/04/2012;;;E12040000820;527;Luana Sousa Pereira;SP;9;1;Consumidor Final (PF);DISTRIFILM SOLUCOES DE IMPRESSAO;Aprovada
+17/04/2012;19/04/2012;;;E12040003764;533;CHG MERIDIAN DO BRASIL LOCACAO DE EQUIPAMENTOS LTDA;SP;4;5;Empresas / Estado de São Paulo;CONTEC INFORMATICA LTDA                 ;Aprovada
+02/05/2012;04/05/2012;;;E12050000350;536;Tania Mara Garcia Costa ;PR;2;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE CURITIBA;Aprovada
+08/05/2012;11/05/2012;;;E12050002647;542;RODOLFO DA SILVA BATISTA;RJ;1;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Aprovada
+14/05/2012;22/05/2012;;;E12050004186;543;DW CONSULT EM SISTEMAS GERENCIAIS LTDA;SP;4;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Cancelada
+30/05/2012;31/05/2012;;;E12050009064;547;Molin do Brasil Com e Distribuidora Ltda;SP;1;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Aprovada
+20/06/2012;20/06/2012;;;E12060006165;551;ARAUJO CRUZ ADVOGADOS ASSOCIADOS;SP;4;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Aprovada
+16/07/2012;01/08/2012;;;E12070004238;563;DAAD - Serviço Alemão de Intercâmbio Acadêmico;SP;2;5;Empresas / Estado de São Paulo;CONTEC INFORMATICA LTDA                 ;Aprovada
+18/07/2012;01/08/2012;;;E12070004580;564;COML. ADESTIQ ETIQ. GRÁF. LTDA.;SP;2;5;Empresas / Estado de São Paulo;SO SETTY COMERCIAL LTDA;Aprovada
+09/08/2012;11/09/2012;;;E12080003110;571;Reginaldo Egashira;SP;8;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE CAMPINAS;Aprovada
+16/08/2012;11/09/2012;;;E12080005245;574;José Augusto Rocha Mendes;SP;4;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Aprovada
+24/08/2012;11/09/2012;;;E12080007701;579;Praça do Boteco Gastronomia Brasileira ltda ;SP;4;1;Consumidor Final (PF);DISTRIFILM SOLUCOES DE IMPRESSAO;Aprovada
+06/09/2012;11/09/2012;;;E12090001706;587;Superintendência da Tecnologia da Informação;SP;8;3;Órgãos Públicos e Empresas Estatais;Habiltec Dist. de Peças e Serv. Ltda;Aprovada
+11/09/2012;11/09/2012;;;E12090003237;589;lourenco matakas junior;SP;1;3;Órgãos Públicos e Empresas Estatais;MULTISERVICE INFORMATICA LTDA           ;Aprovada
+25/09/2012;08/10/2012;;;E12090008700;594;SAUDE FISCAL LTDA;SP;5;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE CAMPINAS;Aprovada
+25/09/2012;;;;E12090008891;595;BARBARA VERDI DOS SANTOS;SP;30;2;Usuário Final-cadastro com CPF (à partir de 15 cart.);CONTEC INFORMATICA LTDA                 ;Rejeitada
+26/09/2012;08/10/2012;;;E12090009782;597;Moises Vieira;SP;5;1;Consumidor Final (PF);Habiltec Dist. de Peças e Serv. Ltda;Aprovada
+15/10/2012;22/10/2012;;;E12100005288;602;Instituto Periferia Ativa;SP;4;5;Empresas / Estado de São Paulo;CONTEC INFORMATICA LTDA                 ;Aprovada
+18/10/2012;22/10/2012;;;E12100006500;604;Lais Angelina Vieira da Silva;SP;8;1;Consumidor Final (PF);SENSUS COM. E MANUT. EQUIP. DE INF. LTDA;Aprovada
+24/10/2012;;;;E12100008627;609;São Bertino Empreendimentos Imobiliários;RJ;7;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Rejeitada
+07/11/2012;;;;E12110001579;616;JANE LOPES;SP;7;1;Consumidor Final (PF);SO SETTY COMERCIAL LTDA;Rejeitada
+12/11/2012;;;;E12110002974;618;AIPC;SP;8;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Rejeitada
+28/11/2012;;;;E12110006538;619;H. Melillo  Comunicação e Marketing Ltda;SP;14;4;Revendedor;DISTRIFILM SOLUCOES DE IMPRESSAO;Em espera de Aprovação
+06/12/2012;;;;E12120001857;621;RIAL ASSESSORIA CONTÁBIL LTDA;RJ;14;2;Usuário Final-cadastro com CPF (à partir de 15 cart.);TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Em espera de Aprovação
+10/12/2012;;;;E12120002586;623;Global Tailor Made Idiomas Ltda;SP;8;5;Empresas / Estado de São Paulo;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+23/12/2012;22/02/2013;;;E12120006492;625;Jaqueline Midori Makiyama Maeda;SP;3;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Aprovada
+04/01/2013;;;;E13010000838;629;Fanquilesio Goularte;SP;2;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+04/01/2013;;;;E13010001052;630;Miriam AParecida da SIlva Rodrigues;SP;9;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+08/01/2013;;;;E13010002458;632;INSTITUTO HERMES PARDINI S/A;MG;12;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Rejeitada
+11/01/2013;;;;E13010004230;633;ADRIANA AGUIAR MARQUES;SP;6;1;Consumidor Final (PF);CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+15/01/2013;;;;E13010005040;634;MAX 2006 IND. E COM. DE PRODUTOS QUIMICOS LTDA;RJ;19;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Em espera de Aprovação
+16/01/2013;;;;E13010006011;636;ESCOLA DE EDUC INF ENS FUND SAUDE LTDA;SP;8;5;Empresas / Estado de São Paulo;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+17/01/2013;;;;E13010006364;637;SANTA SABINA EMPREEND.IMOB. LTDA;MG;11;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Em espera de Aprovação
+30/01/2013;;;;E13010009037;640;Associação dos Profissionais de Yôga de Santo Amaro;SP;9;5;Empresas / Estado de São Paulo;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+13/02/2013;;;;E13020003384;645;REIS OFFICE PRODUCTS COMERCIAL LTDA;SP;7;4;Revendedor;MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+23/02/2013;;;;E13020006804;649;INSTITUTO HERMES PARDINI S/A;MG;5;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Rejeitada
+25/02/2013;;;;E13020006995;650;ROSSI RESIDENCIAL SA;MG;10;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Rejeitada
+04/03/2013;;;;E13030000990;653;INTERCAMBIO ELETRONICO DE DADOS;SP;8;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+07/03/2013;;;;E13030002267;655;Carlos Eduardo Rodrigues;MG;3;1;Consumidor Final (PF);TECNOCOOP - FILIAL DE BELO HORIZONTE;Em espera de Aprovação
+12/03/2013;;;;E13030003743;657;Laboroil Ltda;MG;19;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Em espera de Aprovação
+18/03/2013;;;;E13030005525;660;MAGALI TENORIO SANTOS;SP;80;1;Consumidor Final (PF);CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+20/03/2013;;;;E13030006840;661;Andrade Moveis Sob Medida LTDA Me;SP;12;5;Empresas / Estado de São Paulo;SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+04/04/2013;;;;E13040001816;670;GIOVANNA PAULINO DE ARAUJO CRUZ;SP;2;1;Consumidor Final (PF);Habiltec Dist. de Peças e Serv. Ltda;Em espera de Aprovação
+08/04/2013;;;;E13040003002;671;Southpartner Representação e Consultoria Empresarial LTDA.;SP;5;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+14/04/2013;;;;E13040004670;674;HENRIQUE FIGUEIRO;SP;4;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+15/04/2013;;;;E13040005218;676;Prefeitura Municipal de Barueri;SP;5;3;Órgãos Públicos e Empresas Estatais;Habiltec Dist. de Peças e Serv. Ltda;Em espera de Aprovação
+16/04/2013;;;;E13040006028;679;Editora Grandes Sertões Ltda.;PR;2;7;Empresas / Estados PR; SC e RS;TECNOCOOP - FILIAL DE CURITIBA;Em espera de Aprovação
+24/04/2013;;;;E13040009396;681;HELDER DA SILVA MASSON;SP;7;1;Consumidor Final (PF);SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+25/04/2013;;;;E13040009710;682;Farmácia Homeopática Remar Manzano;SP;1;5;Empresas / Estado de São Paulo;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+29/04/2013;;;;E13040010645;683;MRP Consult Ltda;SP;1;1;Consumidor Final (PF);SENSUS COM. E MANUT. EQUIP. DE INF. LTDA;Em espera de Aprovação
+30/04/2013;;;;E13040010807;684;Grupo Ibmec Educacional;SP;3;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+15/05/2013;;;;E13050005334;689;LEMANS EMPREENDIMENTOS E PART S/A;RJ;15;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Em espera de Aprovação
+20/05/2013;;;;E13050006578;690;Lais Macedo Cordeiro;SP;5;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+21/05/2013;;;;E13050006730;691;Corteze sociedade de advogados;SP;2;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Em espera de Aprovação
+22/05/2013;;;;E13050007388;692;ASSISTI TELEINFORMÁTICA LTDA;RJ;8;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Rejeitada
+24/05/2013;;;;E13050008864;698;AMP BRASIL COM E IND DE PEÇAS LTDA ME;SP;1;5;Empresas / Estado de São Paulo;SENSUS COM. E MANUT. EQUIP. DE INF. LTDA;Em espera de Aprovação
+28/05/2013;;;;E13050009917;699;Prodelmanto Serviços Ltda Me;SP;6;5;Empresas / Estado de São Paulo;Habiltec Dist. de Peças e Serv. Ltda;Em espera de Aprovação
+04/06/2013;;;;E13060001200;703;INSTITUTO HERMES PARDINI SA;MG;12;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Rejeitada
+19/06/2013;;;;E13060005884;708;ALLONDA COML DE GEOSSINTETICOS AMBIENTAIS LTDA;SP;1;4;Revendedor;DISTRIFILM SOLUCOES DE IMPRESSAO;Em espera de Aprovação
+04/07/2013;;;;E13070001407;711;Laboratorio Cedro;MG;9;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Em espera de Aprovação
+05/07/2013;;;;E13070001903;712;Rtx Informática;SP;60;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+19/07/2013;;;;E13070007359;717;chiodelli livraria e papelaria ltda;RS;6;7;Empresas / Estados PR; SC e RS;Lunes 3 Comércio de Maquinas e Suprimentos Gráficos Ltda;Em espera de Aprovação
+05/08/2013;;;;E13080001434;724;Clube de Mães Jd Nicea Jd Pinheirinho e Adjacesia;SP;10;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Em espera de Aprovação
+07/08/2013;;;;E13080003801;727;CENIS COMERCIO E SERVIÇOS INDUSTRIAIS;SP;3;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+08/08/2013;;;;E13080004379;728;WTORRE INNOVA ADM. CONDOMINAL LTDA;RJ;12;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Rejeitada
+14/08/2013;;;;E13080006231;730;Editora Planeta DeAgostini do Brasil LTDA;SP;7;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Rejeitada
+01/10/2013;;;;E13100000233;743;Monica R Cintra Publicidade ME ;SP;2;1;Consumidor Final (PF);CONTEC INFORMATICA LTDA                 ;Rejeitada
+09/10/2013;;;;E13100002368;744;Next Challenge Com.ServImp.Exp.Eq.P/Lav.Coz.Inds.Ltda;SP;7;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+19/10/2013;;;;E13100005707;748;FS SOM E ALRMES LTDA;SP;3;1;Consumidor Final (PF);CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+07/11/2013;;;;E13110001836;757;Limongi Sociedade de Advogados;SP;5;5;Empresas / Estado de São Paulo;CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+12/11/2013;;;;E13110004509;761;RPERFORMANCE CONSULTORIA E SERVIÇOS EM INFORMATICA;SP;15;1;Consumidor Final (PF);CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+19/11/2013;;;;E13110006048;762;Denis Roberto Andrade;SP;6;1;Consumidor Final (PF);MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+22/11/2013;;;;E13110007010;764;CONSÓRCIO INTEGRA FACIL BAURU;SP;3;3;Órgãos Públicos e Empresas Estatais;MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+23/11/2013;;;;E13110007443;765;RENOVATIO MULTI SERVICOS LTDA;SP;8;5;Empresas / Estado de São Paulo;MULTISERVICE INFORMATICA LTDA           ;Em espera de Aprovação
+02/01/2014;;;;E14010000186;777;Rosangela Cima Teixeira;SP;10;1;Consumidor Final (PF);DISTRIFILM SOLUCOES DE IMPRESSAO;Em espera de Aprovação
+02/01/2014;;;;E14010000348;778;Farias Imóveis Construções Empreendimentos e Incorporações Ltda;MG;6;6;Empresas / Estados RJ; MG e ES;TECNOCOOP - FILIAL DE BELO HORIZONTE;Em espera de Aprovação
+16/01/2014;;;;E14010004769;784;b2w companhia digital;RJ;1;6;Empresas / Estados RJ; MG e ES;TECNOCOOP-COOPERATIVA DE TRABALHO DE ASSISTÊNCIA TÉCNICA A EQUIPAMENTOS DE PROCESSAMENTO DE DADOS LTDA;Em espera de Aprovação
+20/01/2014;;;;E14010005307;786;Antonio Carlos Dainese;SP;3;1;Consumidor Final (PF);SENSUS COM. E MANUT. EQUIP. DE INF. LTDA;Em espera de Aprovação
+07/02/2014;;;;E14020003722;795;Restaurante Tordesilhas Ltda;SP;5;5;Empresas / Estado de São Paulo;DISTRIFILM SOLUCOES DE IMPRESSAO;Em espera de Aprovação
+12/02/2014;;;;E14020006667;798;arati shopping;RS;12;7;Empresas / Estados PR; SC e RS;Lunes 3 Comércio de Maquinas e Suprimentos Gráficos Ltda;Em espera de Aprovação
+25/02/2014;;;;E14020011741;804;Daniela  ;SP;50;1;Consumidor Final (PF);CONTEC INFORMATICA LTDA                 ;Em espera de Aprovação
+05/03/2014;;;;E14030000157;810;José Donizetti ventura ;SP;8;1;Consumidor Final (PF);SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+06/03/2014;;;;E14030000823;811;Transportadora e Distribuidora Pety Ltda;SP;6;5;Empresas / Estado de São Paulo;SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+10/03/2014;;;;E14030001803;813;Assessoria Contábil L.Dias;SP;10;5;Empresas / Estado de São Paulo;SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+18/03/2014;;;;E14030005620;815;COMÉRCIO DE ROUPAS MB;SP;6;5;Empresas / Estado de São Paulo;SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+22/03/2014;;;;E14030007321;818;Silvia Helena R Campos;SP;2;1;Consumidor Final (PF);SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+26/03/2014;;;;E14030008646;821;Mini Mercado Boverio e Filhos Ltda;SP;5;5;Empresas / Estado de São Paulo;SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+31/03/2014;;;;E14030010896;824;LUIZ ANTONIO AVILEZ DE JESUS;SP;7;1;Consumidor Final (PF);SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+07/04/2014;;;;E14040002640;825;SMSP - SUBPREFEITURA CIDADE TIRADENTES;SP;1;3;Órgãos Públicos e Empresas Estatais;SO SETTY COMERCIAL LTDA;Em espera de Aprovação
+11/04/2014;;;;E14040005070;827;adalberto;SP;5;6;Empresas / Estados RJ; MG e ES;SO SETTY COMERCIAL LTDA;Rejeitada
+23/05/2014;;;;E14050010514;883;BSD NARITA - ME;SP;4;5;Empresas / Estado de São Paulo;SO SETTY COMERCIAL LTDA;Em espera de Aprovação

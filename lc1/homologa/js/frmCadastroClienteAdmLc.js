@@ -1,0 +1,279 @@
+
+function windowLocationFind(url) {
+	var find = true;
+	var busca = document.frmCadastroClienteAdm.txtFindCliente.value;
+	var por = document.frmCadastroClienteAdm.typeFindCliente.value;
+	var status = document.frmCadastroClienteAdm.cbStatusFindCliente.value;
+	var categoria = document.frmCadastroClienteAdm.cbCategoriasFindCliente.value;
+	var grupos = document.frmCadastroClienteAdm.grupos.value;
+	//window.location.href = url + "frmCadastroClienteAdm.asp?find=true&search="+busca+"&changetype="+por+"&status="+status+"&categoria="+categoria+"&grupos="+grupos;
+	window.location.href = url + "../lc/homologa/adm/frmCadastroClienteAdm.asp?find=true&search="+busca+"&changetype="+por+"&status="+status+"&categoria="+categoria+"&grupos="+grupos;
+}
+
+
+function aprovar() {
+	if (document.frmCadastroClienteAdm.hiddenActionIsColetaDomiciliar.value == 1) 
+	{
+		if (document.frmCadastroClienteAdm.cbTransp.value == "-1") 
+		{
+			alert("Selecione uma Transportadora!");
+			return;
+		}
+	}
+	document.frmCadastroClienteAdm.hiddenActionManagerProve.value = 'true';
+	document.frmCadastroClienteAdm.hiddenActionForm.value = "APROVAR";
+	document.frmCadastroClienteAdm.submit();
+}
+
+function reprovar() {
+	document.frmCadastroClienteAdm.hiddenActionManagerProve.value = 'false';		
+	document.frmCadastroClienteAdm.hiddenActionForm.value = "REPROVAR";
+	document.frmCadastroClienteAdm.submit();
+}
+
+function validar() {
+	document.frmCadastroClienteAdm.hiddenActionForm.value = "SALVAR";
+	document.frmCadastroClienteAdm.submit();
+}
+
+function validaCnpj() {
+	var numeros1Dig = new Array(5,4,3,2,9,8,7,6,5,4,3,2);
+	var soma1Dig = 0;
+	var resto1Dig = 0;
+	var digVer1 = 0;
+	var numeros2Dig = new Array(6,5,4,3,2,9,8,7,6,5,4,3,2);
+	var soma2Dig = 0;
+	var resto2Dig = 0;
+	var digVer2 = 0;
+	var i = 0;
+	var j = 0;
+	var cnpj = "";
+
+	cnpj = document.frmCadastroClienteAdm.txtCNPJCliente.value;
+
+	digVer2 = cnpj.charAt(cnpj.length - 1);
+	digVer1 = cnpj.charAt(cnpj.length - 2);
+	
+	if (document.frmCadastroClienteAdm.txtCNPJCliente.value.indexOf('/') == -1) {
+		alert("Preencha corretamente o campo CNPJ erro:215");
+		return;
+	}
+	if (document.frmCadastroClienteAdm.txtCNPJCliente.value.length < 18) {
+		alert("Preencha corretamente o campo CNPJ erro:219");
+		return;
+	}
+	cnpj = cnpj.replace('/','');
+	cnpj = cnpj.replace('-','');
+	cnpj = cnpj.replace('.','');
+	cnpj = cnpj.replace('.','');
+	for(i = 0; i < cnpj.length - 2; i++) {
+		if (!isNaN(cnpj.charAt(i)) && !isNaN(numeros1Dig[i])) {
+			soma1Dig += cnpj.charAt(i) * numeros1Dig[i];
+		}
+	}
+	resto1Dig = soma1Dig % 11;
+	if (resto1Dig < 2) {
+		if (!(digVer1 == 0)) {
+			alert("Preencha corretamente o campo CNPJ erro:234");
+			return;
+		}	
+	} else {
+		resto1Dig = 11 - resto1Dig;
+		if (!(resto1Dig == digVer1)) {
+			alert("Preencha corretamente o campo CNPJ erro:240");
+			return;
+		}	
+	}
+	for(j = 0; j < cnpj.length - 1; j++) {
+		soma2Dig += cnpj.charAt(j) * numeros2Dig[j];
+	}
+	resto2Dig = soma2Dig % 11;
+	if (resto2Dig < 2) {
+		if (!(digVer2 == 0)) {
+			alert("Preencha corretamente o campo CNPJ erro:250");
+			return;
+		}	
+	} else {
+		resto2Dig = 11 - resto2Dig;
+		if (!(resto2Dig == digVer2)) {
+			alert("Preencha corretamente o campo CNPJ eroo:256");
+			return;
+		}	
+	}
+}
+function tipopessoa() {
+	
+	var form = document.frmCadastroClienteAdm;
+	
+	if (form.radioPessoa[0].checked) {
+	    document.getElementById("razaosocial").style.display = 'none';
+		document.getElementById("nomefantasia").style.display = 'none';
+		document.getElementById("cnpj").style.display = 'none';
+		document.getElementById("inscestadual").style.display = 'none';
+		document.getElementById("nomecliente").style.display = 'block';	
+		document.getElementById("cpf").style.display = 'block';	
+	} else {
+		if (form.radioPessoa[1].checked) {
+			document.getElementById("nomecliente").style.display = 'none';	
+			document.getElementById("cpf").style.display = 'none';	
+			document.getElementById("razaosocial").style.display = 'block';
+			document.getElementById("nomefantasia").style.display = 'block';
+			document.getElementById("cnpj").style.display = 'block';
+			document.getElementById("inscestadual").style.display = 'block';
+		}	
+	}
+	return;
+}
+
+
+function Ajax() {
+	var ajax = null;
+	if (window.ActiveXObject) {
+		try {
+			ajax = new ActiveXObject("Msxml2.XMLHTTP");	
+		} catch (ex) {
+			try {
+				ajax = new ActiveXObject("Microsoft.XMLHTTP");
+			} catch(ex2) {
+				alert("Seu browser não suporta Ajax.");
+			}			
+		}
+	} else {
+		if (window.XMLHttpRequest) {
+			try {
+				ajax = new XMLHttpRequest();	
+			} catch(ex3) {
+				alert("Seu browser não suporta Ajax.");
+			}	
+		}	
+	}
+	
+	return ajax;
+}
+
+function getEndereco() {
+	var oAjax = Ajax();
+	var form = document.frmCadastroClienteAdm;
+	var strRet = "";
+
+	form.txtLogradouro.value = "Carregando...";
+	form.txtBairro.value = "Carregando...";
+	form.txtMunicipio.value = "Carregando...";
+	form.txtEstado.value = "Carregando...";
+	form.txtCompLogradouro.value = "";
+	form.txtNumero.value = "";
+	document.body.style.cursor = 'wait';
+	
+	oAjax.onreadystatechange = function() {
+	    if (oAjax.readyState == 4 && oAjax.status == 200) {
+	        strRet = oAjax.responseText.split(";");
+	        strRet[6] = strRet[6].replace("        ", '');
+			form.txtLogradouro.value = strRet[6] + "" + strRet[2];
+			form.txtBairro.value = strRet[3];
+			form.txtMunicipio.value = strRet[4];
+			form.txtEstado.value = strRet[5];
+			document.frmEditCadastriClienteLc.txtLogradouro.value = strRet[2];
+			document.body.style.cursor = 'default';
+		}
+	}
+	
+	oAjax.open("GET", "../ajax/frmCadCliente.asp?sub=getcependereco&id="+form.txtCEPEnderecoComumCliente.value, true);
+	oAjax.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=iso-8859-1");
+	oAjax.send(null);
+	return;
+}
+
+function getEnderecoColeta() {
+	var oAjax = Ajax();
+	var form = document.frmCadastroClienteAdm;
+	var strRet = "";
+
+	form.txtLogradouroColeta.value = "Carregando...";
+	form.txtBairroColeta.value = "Carregando...";
+	form.txtMunicipioColeta.value = "Carregando...";
+	form.txtEstadoColeta.value = "Carregando...";
+	form.txtCompLogradouroColeta.value = "";
+	form.txtNumeroColeta.value = "";
+	document.body.style.cursor = 'wait';
+ 
+	oAjax.onreadystatechange = function() {
+		if (oAjax.readyState == 4 && oAjax.status == 200) {
+			strRet = oAjax.responseText.split(";");
+			strRet[6] = strRet[6].replace("        ",'');
+			form.txtLogradouroColeta.value = strRet[6] + ". " + strRet[2];
+			form.txtBairroColeta.value = strRet[3];
+			form.txtMunicipioColeta.value = strRet[4];
+			form.txtEstadoColeta.value = strRet[5];
+			document.body.style.cursor = 'default';
+		}
+	}
+	oAjax.open("GET", "../ajax/frmCadCliente.asp?sub=getcependereco&id="+form.txtCEPEnderecoComumClienteColeta.value, true);
+	oAjax.setRequestHeader("Content-Type","application/x-www-form-urlencoded; charset=iso-8859-1");
+	oAjax.send(null);
+}
+
+
+function validaCPF() {
+	var numeros1Dig = new Array(10,9,8,7,6,5,4,3,2);
+	var soma1Dig = 0;
+	var resto1Dig = 0;
+	var digVer1 = 0;
+	var numeros2Dig = new Array(11,10,9,8,7,6,5,4,3,2);
+	var soma2Dig = 0;
+	var resto2Dig = 0;
+	var digVer2 = 0;
+	var i = 0;
+	var j = 0;
+	var cnpj = "";
+
+	cnpj = document.frmCadastroClienteAdm.txtCPFCliente.value;
+
+	digVer2 = cnpj.charAt(cnpj.length - 1);
+	digVer1 = cnpj.charAt(cnpj.length - 2);
+	
+	if (document.frmCadastroClienteAdm.txtCPFCliente.value == "") {
+		alert("Preencha o campo CPF!");
+		return;
+	}
+	if (document.frmCadastroClienteAdm.txtCPFCliente.value.length < 14) {
+		alert("Preencha o campo CPF corretamente!");
+		return;
+	}
+	cnpj = cnpj.replace('-','');
+	cnpj = cnpj.replace('.','');
+	cnpj = cnpj.replace('.','');
+	for(i = 0; i < cnpj.length - 2; i++) {
+		if (!isNaN(cnpj.charAt(i)) && !isNaN(numeros1Dig[i])) {
+			soma1Dig += cnpj.charAt(i) * numeros1Dig[i];
+		}
+	}
+	resto1Dig = soma1Dig % 11;
+	if (resto1Dig < 2) {
+		if (!(digVer1 == 0)) {
+			alert("Preencha o campo CPF corretamente!");
+			return;
+		}	
+	} else {
+		resto1Dig = 11 - resto1Dig;
+		if (!(resto1Dig == digVer1)) {
+			alert("Preencha o campo CPF corretamente!");
+			return;
+		}	
+	}
+	for(j = 0; j < cnpj.length - 1; j++) {
+		soma2Dig += cnpj.charAt(j) * numeros2Dig[j];
+	}
+	resto2Dig = soma2Dig % 11;
+	if (resto2Dig < 2) {
+		if (!(digVer2 == 0)) {
+			alert("Preencha o campo CPF corretamente!");
+			return;
+		}	
+	} else {
+		resto2Dig = 11 - resto2Dig;
+		if (!(resto2Dig == digVer2)) {
+			alert("Preencha o campo CPF corretamente!");
+			return;
+		}	
+	}
+}

@@ -1,0 +1,111 @@
+Data Solicitação;Data Aprovação;Data Entrega Ponto Coleta;Data Recebimento;Número Solicitação;Cod. Cliente;Razão Social;UF Cliente;Qtd. Cartuchos;Cód. Categoria;Desc. Categoria;Ponto de coleta;Status
+05/09/2007;07/01/2008;08/01/2008;;E07090000908;;;;5;;;;Cancelada
+06/09/2007;09/06/2007;31/01/2007;;E07090001033;;;;100;;;;Cancelada
+10/09/2007;10/09/2007;10/09/2007;10/09/2007;E07090007074;;;;300;;;;Encerrada
+11/09/2007;;;;E07090007406;;;;100;;;;Rejeitada
+12/09/2007;09/12/2007;14/09/2007;;E07090008127;;;;100;;;;Material entregue e ainda não devolvido
+12/09/2007;12/09/2007;12/09/2007;;E07090008208;;;;500;;;;Material entregue e ainda não devolvido
+12/09/2007;12/09/2007;12/09/2007;;E07090008470;;;;400;;;;Material entregue e ainda não devolvido
+12/09/2007;12/09/2007;12/09/2007;13/09/2007;E07090008631;;;;200;;;;Encerrada
+12/09/2007;12/09/2007;12/09/2007;13/09/2007;E07090008712;;;;500;;;;Encerrada
+12/09/2007;12/09/2007;12/09/2007;13/09/2007;E07090008984;;;;500;;;;Encerrada
+12/09/2007;12/09/2007;12/09/2007;13/09/2007;E07090009107;;;;500;;;;Encerrada
+12/09/2007;12/09/2007;12/09/2007;13/09/2007;E07090009360;;;;500;;;;Encerrada
+12/09/2007;12/09/2007;12/09/2007;13/09/2007;E07090010024;;;;400;;;;Encerrada
+12/09/2007;12/09/2007;12/09/2007;17/09/2007;E07090011691;;;;200;;;;Encerrada
+12/09/2007;12/09/2007;12/09/2007;13/09/2007;E07090011772;;;;400;;;;Encerrada
+12/09/2007;18/09/2007;21/09/2007;21/09/2007;E07090012078;;;;400;;;;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090014526;;;;400;;;;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090014607;;;;400;;;;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090014798;;;;200;;;;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090014879;;;;100;;;;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090015336;;;;400;;;;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090015417;;;;300;;;;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090015506;;;;200;;;;Encerrada
+17/09/2007;17/09/2007;17/09/2007;17/09/2007;E07090019242;;;;400;;;;Encerrada
+17/09/2007;17/09/2007;17/09/2007;21/09/2007;E07090019323;;;;300;;;;Encerrada
+18/09/2007;18/09/2007;18/09/2007;21/09/2007;E07090020925;;;;320;;;;Encerrada
+18/09/2007;18/09/2007;;;E07090021140;;;;1;;;;Aprovada
+18/09/2007;18/09/2007;;;E07090021220;;;;1000;;;;Aprovada
+24/09/2007;08/10/2007;08/10/2007;;E07090024165;;;;140;;;;Material entregue e ainda não devolvido
+08/10/2007;08/10/2007;08/10/2007;;E07100000735;;;;1;;;;Material entregue e ainda não devolvido
+09/10/2007;;;;E07100001898;;;;40;;;;Em espera de Aprovação
+09/10/2007;;;;E07100001979;;;;40;;;;Em espera de Aprovação
+09/10/2007;;;;E07100002002;;;;40;;;;Em espera de Aprovação
+09/10/2007;;;;E07100002193;;;;40;;;;Em espera de Aprovação
+09/10/2007;;;;E07100002274;;;;40;;;;Em espera de Aprovação
+09/10/2007;;;;E07100002355;;;;40;;;;Em espera de Aprovação
+09/10/2007;;;;E07100002436;;;;40;;;;Em espera de Aprovação
+10/10/2007;10/10/2007;10/10/2007;;E07100003408;;;;10;;;;Material entregue e ainda não devolvido
+23/10/2007;23/10/2007;23/10/2007;;E07100005028;;;;10;;;;Material entregue e ainda não devolvido
+23/10/2007;23/10/2007;23/10/2007;;E07100005290;;;;10;;;;Material entregue e ainda não devolvido
+31/10/2007;;;;E07100005532;;;;50;;;;Em espera de Aprovação
+01/11/2007;;;;E07110000347;;;;10;;;;Em espera de Aprovação
+07/11/2007;;;;E07110000690;;;;10;;;;Em espera de Aprovação
+07/11/2007;;;;E07110000851;;;;10;;;;Em espera de Aprovação
+07/11/2007;;;;E07110000932;;;;10;;;;Em espera de Aprovação
+07/11/2007;;;;E07110001076;;;;10;;;;Em espera de Aprovação
+07/11/2007;;;;E07110001157;;;;10;;;;Em espera de Aprovação
+08/11/2007;;;;E07110001580;;;;20;;;;Em espera de Aprovação
+09/11/2007;;;;E07110002048;;;;20;;;;Em espera de Aprovação
+28/11/2007;;;;E07110002471;;;;1;;;;Em espera de Aprovação
+06/12/2007;06/12/2007;;;E07120000706;;;;1;;;;Aprovada
+10/12/2007;;;;E07120001001;;;;1;;;;Em espera de Aprovação
+10/12/2007;;;;E07120001192;;;;1;;;;Em espera de Aprovação
+10/12/2007;;;;E07120001435;;;;5;;;;Em espera de Aprovação
+10/12/2007;;;;E07120001516;;;;1;;;;Em espera de Aprovação
+10/12/2007;;;;E07120001605;;;;45;;;;Em espera de Aprovação
+10/12/2007;;;;E07120001788;;;;3;;;;Em espera de Aprovação
+10/12/2007;;;;E07120001869;;;;2;;;;Em espera de Aprovação
+10/12/2007;08/01/2008;08/01/2008;;E07120001940;;;;9;;;;Material entregue e ainda não devolvido
+10/12/2007;;;;E07120002083;;;;8;;;;Em espera de Aprovação
+10/12/2007;;;;E07120002164;;;;7;;;;Em espera de Aprovação
+11/12/2007;;;;E07120002245;;;;1;;;;Em espera de Aprovação
+11/12/2007;;;;E07120002326;;;;1;;;;Em espera de Aprovação
+11/12/2007;;;;E07120002407;;;;1;;;;Em espera de Aprovação
+11/12/2007;;;;E07120002598;;;;1;;;;Em espera de Aprovação
+11/12/2007;;;;E07120003055;;;;1;;;;Rejeitada
+11/12/2007;;;;E07120003560;;;;1;;;;Em espera de Aprovação
+12/12/2007;10/01/2008;;;E07120004531;;;;1;;;;Aprovada
+12/12/2007;10/01/2008;;;E07120004612;;;;63;;;;Aprovada
+12/12/2007;;;;E07120004701;;;;52;;;;Rejeitada
+12/12/2007;09/01/2008;;;E07120005180;;;;1;;;;Aprovada
+13/12/2007;;;;E07120006232;;;;1;;;;Rejeitada
+14/12/2007;14/12/2007;14/12/2007;14/12/2007;E07120006313;;;;1;;;;Encerrada
+14/12/2007;14/12/2007;14/12/2007;14/12/2007;E07120006402;;;;99;;;;Encerrada
+27/12/2007;09/01/2008;;;E07120007719;;;;1;;;;Aprovada
+04/01/2008;04/01/2008;04/01/2008;;E08010000416;;;;200;;;;Material entregue e ainda não devolvido
+04/01/2008;04/01/2008;04/01/2008;04/01/2008;E08010000688;;;;300;;;;Encerrada
+07/01/2008;01/07/2008;01/06/2008;;E08010000920;;;;3;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;;E08010001307;;;;100;;;;Material entregue e ainda não devolvido
+09/01/2008;;;;E08010001498;;;;1000;;;;Rejeitada
+09/01/2008;09/01/2008;31/07/2008;;E08010001650;;;;100;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;;E08010001730;;;;200;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;01/03/2008;E08010001811;;;;750;;;;Encerrada
+09/01/2008;01/09/2008;01/07/2008;;E08010001900;;;;780;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;01/03/2008;E08010002036;;;;150;;;;Encerrada
+09/01/2008;09/01/2008;09/01/2008;;E08010002460;;;;10;;;;Material entregue e ainda não devolvido
+09/01/2008;;;;E08010002540;;;;20;;;;Rejeitada
+09/01/2008;09/01/2008;09/01/2008;;E08010002621;;;;30;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;;E08010003270;;;;120;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;01/03/2008;E08010003350;;;;435;;;;Encerrada
+09/01/2008;01/09/2008;01/09/2008;;E08010003431;;;;9852;;;;Material entregue e ainda não devolvido
+09/01/2008;;;;E08010003512;;;;8574;;;;Rejeitada
+09/01/2008;09/01/2008;09/01/2008;;E08010003601;;;;878;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;01/03/2008;E08010004080;;;;50;;;;Encerrada
+09/01/2008;10/01/2008;10/01/2008;;E08010004160;;;;60;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;01/03/2008;E08010004241;;;;85;;;;Encerrada
+09/01/2008;09/01/2008;09/01/2008;;E08010004322;;;;74;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;;E08010004403;;;;1000;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;01/03/2008;E08010004594;;;;2000;;;;Encerrada
+09/01/2008;09/01/2008;09/01/2008;;E08010004675;;;;789;;;;Material entregue e ainda não devolvido
+09/01/2008;09/01/2008;09/01/2008;;E08010004756;;;;852;;;;Material entregue e ainda não devolvido
+10/01/2008;10/01/2008;10/01/2008;;E08010005485;;;;3000;;;;Material entregue e ainda não devolvido
+10/01/2008;10/01/2008;10/01/2008;;E08010005566;;;;4568;;;;Material entregue e ainda não devolvido
+10/01/2008;10/01/2008;10/01/2008;;E08010005647;;;;1000;;;;Material entregue e ainda não devolvido
+15/02/2008;15/02/2008;;;E08020000613;;;;50;;;;Aprovada
+28/03/2008;28/03/2008;08/04/2008;;E08030000497;101;Voluntarios da Patria;SP;5;2;Usuário Final (consumo entre 1 a 15 cart./mês);CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+31/03/2008;31/03/2008;31/03/2008;02/04/2008;E08030001035;105;Érico Tooru Tanji;SP;110;2;Usuário Final (consumo entre 1 a 15 cart./mês);CONTEC INFORMATICA LTDA                 ;Encerrada
+31/03/2008;31/03/2008;31/03/2008;;E08030001205;106;José de Oliveira ;SP;130;2;Usuário Final (consumo entre 1 a 15 cart./mês);CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido
+02/04/2008;02/04/2008;02/04/2008;28/04/2008;E08040000260;105;Érico Tooru Tanji;SP;300;2;Usuário Final (consumo entre 1 a 15 cart./mês);CONTEC INFORMATICA LTDA                 ;Encerrada
+02/04/2008;02/04/2008;02/04/2008;;E08040000503;105;Érico Tooru Tanji;SP;200;2;Usuário Final (consumo entre 1 a 15 cart./mês);CONTEC INFORMATICA LTDA                 ;Material entregue e ainda não devolvido

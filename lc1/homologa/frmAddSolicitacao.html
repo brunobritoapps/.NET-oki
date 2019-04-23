@@ -1,0 +1,149 @@
+<html>
+<head>
+<script src="js/frmAddSolicitacao.js"></script>
+<link rel="stylesheet" type="text/css" href="css/geral.css">
+<title><%=TITLE%></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<%If Session("isColetaDomiciliar") = 0 Then%>
+<body>
+<%else%>
+<body onLoad="loadInfoSameAdress()">
+<%end if%>
+<div id="container">
+	<!--#include file="inc/i_header.asp" -->
+	<div id="conteudo">
+		<table cellspacing="0" cellpadding="0" width="775">
+			<form action="frmAddSolicitacao.asp" name="frmAddSolicitacao" method="POST">
+			<input type="hidden" name="hiddenSessionisColetaDomiciliar" value="<%=Session("isColetaDomiciliar")%>" />
+			<input type="hidden" name="hiddenIntPontoColeta" value="" />
+			<input type="hidden" name="hiddenIntChangePontoColeta" value="<%=IDPontoColeta%>" />
+			<input type="hidden" name="hiddenIntEnderecoCepColeta" value="" />
+			<input type="hidden" name="hiddenGetCepEnderecoComum" value="<%=GetCepEnderecoComum()%>" />
+			<input type="hidden" name="hiddenGetNumeroEnderecoCliente" value="<%=GetNumeroEnderecoCliente()%>" />
+			<input type="hidden" name="hiddenGetCompLogradouroEnderecoCliente" value="<%=GetCompLogradouroEnderecoCliente()%>" />
+			<input type="hidden" name="hiddenActionForm" value="0" />
+			<input type="hidden" name="hiddenMinCartuchos" value="<%If MinCartuchos() = "" Or MinCartuchos() = 0 Then Response.Write GetCategoria() Else Response.Write MinCartuchos() End If %>" />
+			<tr> 
+				<td width="11" background="img/Bg_LatEsq.gif">&nbsp;</td>
+				<td id="conteudo">
+					<table cellpadding="3" cellspacing="4" width="100%" id="tableAddSolicitacao">
+						<tr>
+							<td colspan="3" id="explaintitle" align="center">Nova Solicitação</td>
+						</tr>
+						<tr>
+							<td colspan="3" align="right"><a class="linkOperacional" href="javascript:window.location.href='frmOperacionalCliente.asp';">&laquo Voltar</a></td>
+						</tr>
+						<%If Request.QueryString("MsgRet") <> "" Then%>
+							<tr>
+								<td colspan="3" align="center"><b style="color:#FF0000;"><%=Request.QueryString("MsgRet")%>!</b></td>
+							</tr>
+						<%End If%>
+						<tr>
+							<td align="right" width="40%">Quantidade de Cartuchos a Coletar</td>
+							<td align="left"><input type="text" class="text" name="txtQtdCartuchos" value="" size="5" /></td>
+						</tr>
+						<tr>
+							<td colspan="3" align="center"><input type="button" class="btnform" name="btnSubmitSolicitacao" value="Enviar Solicitação" onClick="validaFormulario()" /></td>
+						</tr>
+						<%If Session("isColetaDomiciliar") = 0 Then%>
+							<tr>
+								<td colspan="3" id="explaintitle" align="center">Busca de Pontos de Coleta mais próximos</td>
+							</tr>
+							<tr>
+								<td colspan="3"><b style="color:#FF0000;">Ponto de Coleta onde foi efetuada a última Solicitação:-</b></td>
+							</tr>
+							<tr>
+								<td colspan="3">
+									<table cellpadding="3" cellspacing="1" width="100%" id="tablRelSolPontoColetaEdita">
+										<tr>
+											<th width="5%">ID</th>
+											<th>Nome Fantasia</th>
+											<th>Logradouro</th>
+										</tr>
+										<tr>
+											<td><%=IDPontoColeta%></td>
+											<td><%=NomeFantasiaPontoColeta%></td>
+											<td><%=LogradouroPontoColeta%></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">CEP para pesquisa dos pontos de coleta: <input type="text" class="textreadonly" maxlength="8" name="txtCepConsultaPonto" value="" size="11" /> <img align="absmiddle" style="cursor:pointer;" src="img/buscar.gif" name="btnBuscarCepColeta" id="btnBuscarCepColeta" alt="Buscar CEP" onClick="showClientePostoColeta()" /></td>
+							</tr>
+							<tr id="titTableListPontoColeta" style="display:none;">
+								<td colspan="2" align="center"><b>Pontos de Coleta mais próximos</b></td>
+							</tr>
+							<tr>
+								<td colspan="3" id="tableListPontoColeta"></td>
+							</tr>
+						<%Else%>	
+							<tr>
+								<td colspan="3" id="explaintitle" align="center">Endereço para Coleta dos Suprimentos</td>
+							</tr>
+							<tr>
+								<td align="right" width="25%"><input type="checkbox" class="checkbox" name="chkMesmoEndereco" value="true" onClick="preencheMesmoEndereco()" /></td>
+								<td align="left">Usar mesmo endereço de cadastro da Empresa</td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Cep de Coleta:</td>
+								<td align="left">
+									<input type="text" class="text" name="txtCepColeta" value="<%=CEPColeta%>" size="10" maxlength="8" /> *
+									Digite apenas números
+									<img align="absmiddle" style="cursor:pointer;" src="img/buscar.gif" name="btnBuscarCepColeta" id="btnBuscarCepColeta" alt="Buscar CEP" onClick="loadCepColeta()" />
+								</td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Logradouro:</td>
+								<td align="left"><input type="text" class="textreadonly" name="txtLogradouroColeta" value="<%=LogradouroColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Complemento Logradouro:</td>
+								<td align="left"><input type="text" class="text" name="txtCompLogradouroColeta" value="<%=CompLogradouro%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Número:</td>
+								<td align="left"><input type="text" class="text" name="txtNumeroColeta" value="<%=NumeroColeta%>" size="10" maxlength="8" /> *</td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Bairro:</td>
+								<td align="left"><input type="text" class="textreadonly" name="txtBairroColeta" value="<%=BairroColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Município:</td>
+								<td align="left"><input type="text" class="textreadonly" name="txtMunicipioColeta" value="<%=MunicipioColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Estado:</td>
+								<td align="left"><input type="text" class="textreadonly" name="txtEstadoColeta" value="<%=EstadoColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Contato para Coleta:</td>
+								<td align="left"><input type="text" class="text" name="txtContatoRespColeta" value="<%=ContatoRespColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">DDD do Contato:</td>
+								<td align="left"><input type="text" class="text" name="txtDDDContatoRespColeta" value="<%=DDDContatoRespColeta%>" size="3" maxlength="2" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Telefone do Contato:</td>
+								<td align="left"><input type="text" class="text" name="txtTelefoneContatoRespColeta" value="<%=TelefoneContatoRespColeta%>" size="10" maxlength="8" /></td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center"><input type="button" class="btnform" name="btnChangeAdressColect" value="Alterar Endereço" onClick="authenticateUpdateAdress()" /></td>
+							</tr>
+						<%End If%>
+					</table>
+				</td>
+				<td width="11" background="img/Bg_LatDir.gif">&nbsp;</td>
+			</tr>
+			</form>
+		</table>
+	</div>
+	<!--#include file="inc/i_bottom.asp" -->
+</div>
+</body>
+</html>
+<%Call close()%>

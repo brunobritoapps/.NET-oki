@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<script src="js/frmAddSolicitacao.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/geral.css">
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<title><%=TITLE%></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+
+<%If Session("isColetaDomiciliar") = 0 Then%>
+<body>
+<%else%>
+<body onLoad="loadInfoSameAdress()">
+<%end if%>
+<div id="container">
+	<!--#include file="inc/i_header.asp" -->
+	<div id="conteudo">
+		<table cellspacing="0" cellpadding="0" width="775">
+		
+			<form action="frmAddSolicitacao.asp" name="frmAddSolicitacao" method="POST">
+			
+			<input type="hidden" name="hiddenSessionisColetaDomiciliar" value="<%=Session("isColetaDomiciliar")%>" />
+			<input type="hidden" name="hiddenIntPontoColeta" value="" />
+			<input type="hidden" name="hiddenIntChangePontoColeta" value="<%=IDPontoColeta%>" />
+			<input type="hidden" name="hiddenIntEnderecoCepColeta" value="" />
+			<input type="hidden" name="hiddenGetCepEnderecoComum" value="<%=GetCepEnderecoComum()%>" />
+			<input type="hidden" name="hiddenGetNumeroEnderecoCliente" value="<%=GetNumeroEnderecoCliente()%>" />
+			<input type="hidden" name="hiddenGetCompLogradouroEnderecoCliente" value="<%=GetCompLogradouroEnderecoCliente()%>" />
+			<input type="hidden" name="hiddenActionForm" value="0" />
+			<input type="hidden" name="hiddenMinCartuchos" value="<%If MinCartuchos() = "" Or MinCartuchos() = 0 Then Response.Write GetCategoria() Else Response.Write MinCartuchos() End If %>" />
+
+			<tr>
+				<td width="11" background="img/Bg_LatEsq.gif">&nbsp;</td>
+				<td id="conteudo">
+					<table border="0" cellpadding="0" width="100%">
+						<tr> 
+							<td>
+								<img src="img/novacoleta.png">
+							</td>
+							<td align="left" class="oki-h1"> 
+								&nbsp;SOLICITAÇÂO DE COLETA
+							</td>
+						</tr>
+						<tr>
+							<td >&nbsp;</td>
+							<td align="left" class="oki-h2">Você pode solicitar a sua coleta no endereço da sua empresa, ou solicitar a coleta em um novo endereço.</br>
+							Para quantidade de itens inferior a 5 itens, procure um ponto de coleta mais próximo.
+							<!--<td colspan="3" id="explaintitle" align="center">Nova Solicitação</td>-->
+							</td>
+						</tr>
+					</table>
+				</td>
+				<td width="11" background="img/Bg_LatDir.gif">&nbsp;</td>
+			</tr>
+			
+			<tr>
+				<td width="11" background="img/Bg_LatEsq.gif">&nbsp;</td>
+				<td id="conteudo">
+					<table border="0" cellpadding="0" width="100%">
+						<tr>
+								<td width="70%">&nbsp;</td>
+								<td width="15%">&nbsp;</td>
+								<td width="15%">&nbsp;</td>								
+								<td width="15%">&nbsp;</td></tr>
+						<tr>
+								<td width="70%">&nbsp;</td>
+								<td align="center" colspan="1" align="left" class="gn-menu-main">
+									<a href="javascript:window.location.href='frmOperacionalCliente.asp';">&laquo Salvar</a>
+								</td>
+								<td align="center" colspan="1" align="left" class="gn-menu-main">
+									<a href="javascript:window.location.href='frmOperacionalCliente.asp';">&laquo Voltar</a>
+								</td>				
+								<td width="15%">&nbsp;</td>
+						</tr>
+					</table>
+				</td>
+				<td width="11" background="img/Bg_LatDir.gif">&nbsp;</td>
+			</tr>
+			
+			<tr> 
+				<td width="11" background="img/Bg_LatEsq.gif">&nbsp;</td>
+				<td id="conteudo">
+					<table width="100%" id="tableAddSolicitacao" border="0">
+						<tr>
+						<%If Request.QueryString("MsgRet") <> "" Then%>
+							<tr>
+								<td colspan="3" align="center"><b style="color:#FF0000;"><%=Request.QueryString("MsgRet")%>!</b></td>
+							</tr>
+						<%End If%>
+						</tr>
+						<tr>
+							<td align="left" colspan="4" class="oki-h2-negrito">&nbsp;Informações desta coleta:</td></br>
+							<td align="left" width="10%"></td>
+							<td width="60%">&nbsp;</td>
+							<td width="10%">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="20%" width="10%" align="right">Quantidade para coleta:</td>
+							<td align="left" width="10%"><input type="number" class="oki-input" name="txtQtdCartuchos" min="1" max="1000" required ></td>
+							<td width="60%">&nbsp;</td>
+							<td width="10%">&nbsp;</td>
+						</tr>
+						<div id="radio">
+						<tr>
+							<td width="20%" width="10%" align="right">Coletar no endereço da empresa:</td>
+							<td align="left" width="10%"><input id="radioendmesmo" onclick="checkEndereco(this.id)" type="radio" class="oki-input" name="radio-end"></td>
+							<td width="60%">&nbsp;</td>
+							<td width="10%">&nbsp;</td>
+						</tr>
+						<tr>
+							<td width="20%" width="10%" align="right">Coletar Em Outro Endereço:</td>
+							<!--<td align="left" width="10%"><input type="radio" class="oki-input" name="txtQtdCartuchos" onClick="preencheMesmoEndereco()"></td>-->
+							<td align="left" width="10%"><input id="radioendnovo" type="radio" class="oki-input" name="radio-end" onclick="checkEndereco(this.id)"></td>
+							<td width="60%">&nbsp;</td>
+							<td width="10%">&nbsp;</td>
+						</tr>
+						</div>
+					</table>
+				</td>
+				<td width="11" background="img/Bg_LatDir.gif">&nbsp;</td>
+			</tr>
+
+			<tr> 
+				<td width="11" background="img/Bg_LatEsq.gif">&nbsp;</td>
+				<td id="conteudo">
+				<table id="tagendnovo" width="100%" id="tableAddSolicitacao" border="0" style="display: none;" class="oki-addnovoend" >
+				<td id="conteudo">
+						<%If Session("isColetaDomiciliar") = 0 Then%>
+							<tr>
+								<td colspan="3" id="explaintitle" align="center">Busca de Pontos de Coleta mais próximos</td>
+							</tr>
+							<tr>
+								<td colspan="3"><b style="color:#FF0000;">Ponto de Coleta onde foi efetuada a última Solicitação:-</b></td>
+							</tr>
+							<tr>
+								<td colspan="3">
+									<table cellpadding="3" cellspacing="1" width="100%" id="tablRelSolPontoColetaEdita">
+										<tr>
+											<th width="5%">ID</th>
+											<th>Nome Fantasia</th>
+											<th>Logradouro</th>
+										</tr>
+										<tr>
+											<td><%=IDPontoColeta%></td>
+											<td><%=NomeFantasiaPontoColeta%></td>
+											<td><%=LogradouroPontoColeta%></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td colspan="2">CEP para pesquisa dos pontos de coleta: <input type="text" class="textreadonly" maxlength="8" name="txtCepConsultaPonto" value="" size="11" />
+								<img align="absmiddle" style="cursor:pointer;" src="img/buscar.gif" name="btnBuscarCepColeta" id="btnBuscarCepColeta" alt="Buscar CEP" onClick="showClientePostoColeta()" /></td>
+							</tr>
+							<tr id="titTableListPontoColeta" style="display:none;">
+								<td colspan="2" align="center"><b>Pontos de Coleta mais próximos</b></td>
+							</tr>
+							<tr>
+								<td colspan="3" id="tableListPontoColeta"></td>
+							</tr>
+						
+						<%Else%>
+						
+							<tr>
+								<td align="right" width="25%">Cep de Coleta:</td>
+								<td align="left">
+									<input type="text" class="oki-input" name="txtCepColeta" value="<%=CEPColeta%>" size="10" maxlength="8" /> Formato: 99999999
+									<img align="absmiddle" style="cursor:pointer;" src="img/buscar.gif" name="btnBuscarCepColeta" id="btnBuscarCepColeta" alt="Buscar CEP" onClick="loadCepColeta()" />
+								</td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Logradouro:</td>
+								<td align="left"><input type="text" class="oki-input" name="txtLogradouroColeta" value="<%=LogradouroColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Complemento Logradouro:</td>
+								<td align="left"><input type="text" class="oki-input" name="txtCompLogradouroColeta" value="<%=CompLogradouro%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Número:</td>
+								<td align="left"><input type="text" class="oki-input" name="txtNumeroColeta" value="<%=NumeroColeta%>" size="10" maxlength="8" /> *</td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Bairro:</td>
+								<td align="left"><input type="text" class="oki-input" name="txtBairroColeta" value="<%=BairroColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Município:</td>
+								<td align="left"><input type="text" class="oki-input" name="txtMunicipioColeta" value="<%=MunicipioColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Estado:</td>
+								<td align="left"><input type="text" class="oki-input" name="txtEstadoColeta" value="<%=EstadoColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Contato para Coleta:</td>
+								<td align="left"><input type="text" class="oki-input" name="txtContatoRespColeta" value="<%=ContatoRespColeta%>" size="40" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">DDD do Contato:</td>
+								<td align="left"><input type="text" class="oki-input" name="txtDDDContatoRespColeta" value="<%=DDDContatoRespColeta%>" size="3" maxlength="2" /></td>
+							</tr>
+							<tr>
+								<td align="right" width="25%">Telefone do Contato:</td>
+								<td align="left"><input type="text" class="oki-input" name="txtTelefoneContatoRespColeta" value="<%=TelefoneContatoRespColeta%>" size="10" maxlength="8" /></td>
+							</tr>
+							<tr>
+								<td colspan="2" align="center"><input type="button" class="btnform" name="btnChangeAdressColect" value="Alterar Endereço" onClick="authenticateUpdateAdress()" /></td>
+							</tr>
+						<%End If%>
+					</table>
+				</td>
+				<td width="11" background="img/Bg_LatDir.gif">&nbsp;</td>
+			</tr>
+			</div>
+			</form>
+		</table>
+	</div>
+	<!--#include file="inc/i_bottom.asp" -->
+</div>
+</body>
+</html>
+<%Call close()%>

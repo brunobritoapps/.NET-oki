@@ -1,0 +1,14 @@
+Data Solicitação;Número Solicitação;Cod. Cliente;Razão Social;Qtd. Cartuchos;Data de Entrega;Status
+01/10/2008;E08100000164;128;Sandria Projetos e Construções Ltda;4;;Rejeitada
+02/12/2008;E08120000305;180;maria helena da fonseca quandt;1;;Cancelada
+02/12/2008;E08120000569;180;maria helena da fonseca quandt;1;;Cancelada
+02/12/2008;E08120000801;180;maria helena da fonseca quandt;1;19/02/2009;Encerrada
+11/12/2008;E08120003827;191;zol Design Ltda;10;;Cancelada
+05/01/2009;E09010000350;196;MQS Consultoria;3;;Cancelada
+19/01/2009;E09010001755;202;Imagem Integrada e Comunicação;14;;Rejeitada
+18/02/2009;E09020003149;214;ELLU Consultoria e Eventos Ltda;4;12/05/2009;Material entregue e ainda não devolvido
+13/03/2009;E09030002021;221;Pedro Carlos Stelian;13;;Aprovada
+19/03/2009;E09030004407;196;MQS Consultoria;9;12/05/2009;Material entregue e ainda não devolvido
+03/04/2009;E09040001338;230;COMIN Automação Industrial LTDA;3;;Aprovada
+17/04/2009;E09040004515;233;prodem produtos odontologicos ltda ;28;;Rejeitada
+01/06/2009;E09060000175;245;BEELNE VIAGENS E TURISMO LTDA;2;09/06/2009;Material entregue e ainda não devolvido

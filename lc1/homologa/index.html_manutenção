@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Manutencao OKI</title>
+    <style type="text/css">
+        .style1
+        {
+            width: 235px;
+            height: 58px;
+        }
+    </style>
+</head>
+<body>
+
+    <p style="text-align: right">
+        <!--<img alt="" class="style1" src="file:///C:/Users/andre.aggio/Documents/OKI.png" /></p>-->
+        <img alt="" class="style1" src="img/OKI.png" /></p>
+
+    <p style="text-align: center">
+        <span style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: medium; text-align: justify;">
+        <strong>SITE EM MANUTENÇÃO</strong></span></p>
+    <p style="text-align: center">
+        <table align="center" border="0" cellpadding="3" cellspacing="3" 
+            class="textoHome" 
+            style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: rgb(93, 93, 93); text-decoration: none; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px;" 
+            width="480">
+            <tr>
+                <td>
+                    <div align="justify">
+                        <span style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: justify;">
+                        Prezados Clientes,</span><br 
+                            style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: justify;" />
+                        <br style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: justify;" />
+                        <span style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: justify;">
+                        O site de Sustentabilidade OKI, &nbsp;está temporariamente indisponível para 
+                        ATUALIZAÇÃO, que estará vigente a partir de 01/04/2015.&nbsp;</span><div 
+                            style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: justify;">
+                            &nbsp;</div>
+                        <div style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: justify;">
+                            O retorno está previsto para o dia 07/04/2015, terça-feira, às 08:00 horas.&nbsp;</div>
+                        <div style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: justify;">
+                            &nbsp;</div>
+                        <div style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: justify;">
+                            Mais informações ou dúvidas, realizar contato com Elaine Nascimento, através do 
+                            telefone (11)3444-3563 ou &nbsp;E-mail: elaine.nascimento@okidata.com</div>
+                        <div style="color: rgb(93, 93, 93); font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: justify;">
+                            <br />
+                            <br />
+                            Atenciosamente,<br />
+                            Oki Data do Brasil Inf. Ltda</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </p>
+    <p style="text-align: center">
+        &nbsp;</p>
+    <p style="text-align: center">
+        &nbsp;</p>
+
+
+</body>
+</html>

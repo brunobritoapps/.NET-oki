@@ -1,0 +1,23 @@
+Data Solicitação;Número Solicitação;Cod. Cliente;Razão Social;Qtd. Cartuchos;Data Programada;Status
+27/01/2009;C09010005157;207;S/A O Estado de São Paulo;52;30/01/2009;Encerrada
+09/02/2009;C09020001790;207;S/A O Estado de São Paulo;50;11/02/2009;Encerrada
+24/02/2009;C09020003815;207;S/A O Estado de São Paulo;46;04/03/2009;Encerrada
+11/03/2009;C09030001645;207;S/A O Estado de São Paulo;50;13/03/2009;Encerrada
+24/03/2009;C09030005209;207;S/A O Estado de São Paulo;50;27/03/2009;Encerrada
+08/04/2009;C09040002148;207;S/A O Estado de São Paulo;50;14/04/2009;Encerrada
+28/04/2009;C09040006569;207;S/A O Estado de São Paulo;56;30/04/2009;Encerrada
+13/05/2009;C09050002698;207;S/A O Estado de São Paulo;52;19/05/2009;Em trânsito
+27/05/2009;C09050005956;207;S/A O Estado de São Paulo;50;29/05/2009;Encerrada
+09/06/2009;C09060001066;207;S/A O Estado de São Paulo;60;12/06/2009;Em trânsito
+25/06/2009;C09060003352;207;S/A O Estado de São Paulo;50;29/06/2009;Encerrada
+08/07/2009;C09070001000;207;S/A O Estado de São Paulo;0;;Rejeitada
+08/07/2009;C09070001182;207;S/A O Estado de São Paulo;60;10/07/2009;Em trânsito
+24/07/2009;C09070004017;207;S/A O Estado de São Paulo;55;31/07/2009;Encerrada
+07/08/2009;C09080001207;207;S/A O Estado de São Paulo;50;14/08/2009;Encerrada
+19/08/2009;C09080003838;207;S/A O Estado de São Paulo;60;24/08/2009;Encerrada
+09/09/2009;C09090001820;207;S/A O Estado de São Paulo;60;18/09/2009;Encerrada
+28/09/2009;C09090005140;207;S/A O Estado de São Paulo;70;06/10/2009;Encerrada
+09/10/2009;C09100001908;207;S/A O Estado de São Paulo;50;16/10/2009;Encerrada
+30/10/2009;C09100006381;207;S/A O Estado de São Paulo;50;06/11/2009;Encerrada
+24/11/2009;C09110002915;207;S/A O Estado de São Paulo;50;27/11/2009;Em trânsito
+04/12/2009;C09120001121;207;S/A O Estado de São Paulo;50;;Aguardando coleta

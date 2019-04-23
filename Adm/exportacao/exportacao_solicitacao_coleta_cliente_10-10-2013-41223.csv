@@ -1,0 +1,12 @@
+Data Solicitação;Número Solicitação;Cod. Cliente;Razão Social;Qtd. Cartuchos;Data Programada;Status
+10/19/2010;C10100002495;357;Itazi Engenharia;120;11/03/2010;Encerrada
+08/12/2013;C13080004883;357;Itazi Engenharia;50;08/21/2013;Encerrada
+10/01/2013;C13100000152;357;Itazi Engenharia;60;;Aguardando coleta
+05/22/2013;C13050007205;357;Itazi Engenharia;100;05/31/2013;Encerrada
+02/06/2013;C13020001926;357;Itazi Engenharia;150;;Aguardando coleta
+01/04/2012;C12010000651;357;Itazi Engenharia;241;01/10/2012;Encerrada
+01/09/2012;C12010001895;357;Itazi Engenharia;242;;Rejeitada
+02/18/2012;C12020005141;357;Itazi Engenharia;86;03/26/2012;Encerrada
+01/09/2013;C13010002881;357;Itazi Engenharia;70;;Aguardando coleta
+11/12/2012;C12110002893;357;Itazi Engenharia;100;11/20/2012;Em trânsito
+08/09/2012;C12080002734;357;Itazi Engenharia;150;08/22/2012;Encerrada

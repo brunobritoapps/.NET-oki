@@ -1,0 +1,4 @@
+Data Solicitação;Número Solicitação;Cod. Cliente;Razão Social;UF Cliente;Qtd. Cartuchos;Transportadora; Data solicitacao; Data aprovacao; Data programada; Data recebimento; Status
+10/09/2007;M07090007155;1;CONTEC INFORMATICA LTDA                 ;SP;200;DELTA RECORDS COM SERV E ARMAZ.LTDA     ;10/09/2007;10/09/2007;10/09/2007;10/09/2007;Encerrada
+18/09/2007;M07090021301;1;CONTEC INFORMATICA LTDA                 ;SP;360;DELTA RECORDS COM SERV E ARMAZ.LTDA     ;18/09/2007;21/09/2007;21/09/2007;21/09/2007;Encerrada
+14/12/2007;M07120006585;5;Porto Ponto Coleta;SP;100;DELTA RECORDS COM SERV E ARMAZ.LTDA     ;14/12/2007;14/12/2007;14/12/2007;14/12/2007;Encerrada
